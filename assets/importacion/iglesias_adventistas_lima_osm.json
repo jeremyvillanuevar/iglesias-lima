@@ -1,0 +1,308 @@
+{
+ "fuente": "OpenStreetMap (Overpass API)",
+ "atribucion": "© Colaboradores de OpenStreetMap — https://www.openstreetmap.org/copyright",
+ "licencia": "Open Database License (ODbL) 1.0 — https://opendatacommons.org/licenses/odbl/1-0/",
+ "area": "Lima Metropolitana y Callao",
+ "denominacion": "Adventista",
+ "fecha_datos_osm": "2026-10-23T17:18:31Z",
+ "criterio": "amenity=place_of_worship + religion=christian. Confirmada_OSM: denomination=adventist|seventh_day_adventist. Por_Verificar: sin esa etiqueta y con \"Adventista\" o \"Séptimo Día\" en el nombre. Se excluyen nombres con marcas de otras confesiones y los elementos ya incluidos en el archivo católico.",
+ "total": 33,
+ "total_confirmadas": 21,
+ "total_por_verificar": 12,
+ "total_sin_marcador": 0,
+ "iglesias": [
+  {
+   "osm_id": "node/4388373156",
+   "nombre": "Adventista España",
+   "lat": -12.0583523,
+   "lng": -77.0432426,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7363310858",
+   "nombre": "IASD La Concordia",
+   "lat": -12.1940669,
+   "lng": -76.9698665,
+   "direccion": "San Francisco",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4214532712",
+   "nombre": "Iglesia adventista",
+   "lat": -12.100776,
+   "lng": -77.0253877,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7949287926",
+   "nombre": "Iglesia adventista",
+   "lat": -12.1665306,
+   "lng": -76.9672751,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/185438418",
+   "nombre": "Iglesia adventista",
+   "lat": -11.9851762,
+   "lng": -77.0103359,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435490931",
+   "nombre": "Iglesia adventista",
+   "lat": -12.0812776,
+   "lng": -77.0584852,
+   "direccion": "Avenida Brasil",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/570084848",
+   "nombre": "Iglesia adventista",
+   "lat": -12.1170252,
+   "lng": -77.0078695,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/608811409",
+   "nombre": "Iglesia adventista",
+   "lat": -11.9863895,
+   "lng": -76.810299,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/654595489",
+   "nombre": "Iglesia adventista",
+   "lat": -12.0510683,
+   "lng": -77.0029813,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/725438883",
+   "nombre": "Iglesia adventista",
+   "lat": -12.0880673,
+   "lng": -77.0781558,
+   "direccion": "Santa Ana",
+   "distrito": "San Miguel",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/712070671",
+   "nombre": "Iglesia Adventista Central A",
+   "lat": -12.1990951,
+   "lng": -76.9521625,
+   "direccion": "Avenida Micaela Bastidas 712",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435373866",
+   "nombre": "Iglesia Adventista del Septimo Dia",
+   "lat": -11.9147095,
+   "lng": -77.0491253,
+   "direccion": "Avenida Los Incas",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435853057",
+   "nombre": "Iglesia Adventista del Septimo Dia",
+   "lat": -12.0527715,
+   "lng": -77.0660927,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/438034604",
+   "nombre": "Iglesia Adventista Del Septimo Dia",
+   "lat": -12.1828528,
+   "lng": -76.9396801,
+   "direccion": "General Hoyos Rubio",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439788920",
+   "nombre": "Iglesia Adventista del Septimo Dia",
+   "lat": -12.0440463,
+   "lng": -76.972594,
+   "direccion": "Avenida Los Eucaliptos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439792710",
+   "nombre": "Iglesia Adventista Del Septimo Dia",
+   "lat": -12.0504895,
+   "lng": -77.0008824,
+   "direccion": "Luis Fumagalli",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4416700694",
+   "nombre": "Iglesia Adventista del Septimo Dia EL PROGRESO",
+   "lat": -11.8748068,
+   "lng": -77.0121078,
+   "direccion": "Oscar R. Benavides 430",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435543529",
+   "nombre": "Iglesia Adventista del Septimo Día",
+   "lat": -12.2202091,
+   "lng": -76.9318565,
+   "direccion": "Avenida José Carlos Mariátegui",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437997401",
+   "nombre": "Iglesia Adventista Del Septino Dia",
+   "lat": -12.1748176,
+   "lng": -76.9652427,
+   "direccion": "Luis Prado",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437818083",
+   "nombre": "Iglesia Adventista del Séptimo Dia",
+   "lat": -12.1662403,
+   "lng": -76.957098,
+   "direccion": "Las Magnolias",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4715722104",
+   "nombre": "Iglesia adventista del séptimo día",
+   "lat": -12.0412999,
+   "lng": -77.0858552,
+   "direccion": "Jirón Pacífico",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6404704290",
+   "nombre": "Iglesia Adventista del Séptimo Día",
+   "lat": -12.0491175,
+   "lng": -76.9734047,
+   "direccion": "Avenida 7 de Junio",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/439070718",
+   "nombre": "Iglesia Adventista del Séptimo Día",
+   "lat": -12.0284185,
+   "lng": -77.0872344,
+   "direccion": "Avenida Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/446932320",
+   "nombre": "Iglesia Adventista del Séptimo Día",
+   "lat": -12.1383512,
+   "lng": -76.9499627,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/6781657796",
+   "nombre": "Iglesia Adventista del Séptimo Día - Orión",
+   "lat": -11.9315398,
+   "lng": -76.6947354,
+   "distrito": "Chosica",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435338677",
+   "nombre": "Iglesia Adventista del Séptimo Día de Miraflores",
+   "lat": -12.1121394,
+   "lng": -77.0364867,
+   "direccion": "Avenida Comandante Espinar 754",
+   "distrito": "San Isidro",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/9871555369",
+   "nombre": "Iglesia Adventista del Séptimo Día Gramadal",
+   "lat": -11.8573588,
+   "lng": -77.0876883,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437802566",
+   "nombre": "Iglesia Adventista del Séptimo Día Villa Jardín",
+   "lat": -12.1689346,
+   "lng": -76.9525411,
+   "direccion": "Jirón Los Álamos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4458459064",
+   "nombre": "Iglesia Adventista El Porvenir - Matute",
+   "lat": -12.0672181,
+   "lng": -77.0193663,
+   "direccion": "Jirón La Mar",
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436940006",
+   "nombre": "Iglesia Adventista El Septimo Dia",
+   "lat": -12.1184407,
+   "lng": -77.0151102,
+   "direccion": "Avenida Sergio Bernales",
+   "distrito": "Surquillo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438804007",
+   "nombre": "Iglesia Advetista de Septimo Dia",
+   "lat": -12.0636607,
+   "lng": -77.0174212,
+   "direccion": "Prolongacion Parinacochas",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3783348762",
+   "nombre": "Iglesia Biblica Bautista",
+   "lat": -12.0237861,
+   "lng": -77.0502716,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1350816529",
+   "nombre": "Iglesia de los Adventistas del Séptimo Día Movimiento de Reforma",
+   "lat": -11.8616857,
+   "lng": -77.0655004,
+   "direccion": "Jirón San Octavio",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  }
+ ]
+}

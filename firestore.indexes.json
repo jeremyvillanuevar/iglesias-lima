@@ -1,0 +1,139 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "eventos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estado_aprobacion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_logico",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_inicio",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "eventos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estado_aprobacion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_logico",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_inicio",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "eventos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "iglesia_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_aprobacion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_logico",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_inicio",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "eventos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "iglesia_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_aprobacion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_logico",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_inicio",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "eventos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ministerio_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_aprobacion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_logico",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_inicio",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "eventos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "creado_por",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado_logico",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_inicio",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "solicitudes_reclamo",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "creado_en",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

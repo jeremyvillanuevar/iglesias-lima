@@ -1,0 +1,53 @@
+name: iglesias_app
+description: "MVP (Fase 1) - Directorio de Iglesias y Eventos en Lima. Flutter + Firebase."
+publish_to: 'none'
+version: 0.1.4+5
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+  # Login con Google (Android). En web se usa el popup de Firebase Auth.
+  google_sign_in: ^6.2.1
+
+  # Mapa (Android + web)
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+
+  # MVVM: ViewModels con ChangeNotifier + Provider
+  provider: ^6.1.2
+  rxdart: ^0.28.0
+
+  # Utilidades
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.8
+
+  # Mapa alternativo SIN clave (OpenStreetMap), usado en Modo Demo o mientras
+  # no haya clave de Google Maps (ver lib/core/config/maps_config.dart)
+  flutter_map: ^8.3.2
+  latlong2: ^0.9.1
+  flutter_map_marker_cluster: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Iglesias de OpenStreetMap para la importación (© Colaboradores de
+  # OpenStreetMap, licencia ODbL 1.0).
+  assets:
+    - assets/importacion/

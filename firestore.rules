@@ -1,0 +1,271 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- Funciones de apoyo ----------
+    function signedIn() { return request.auth != null; }
+    function myRef() { return /databases/$(database)/documents/users/$(request.auth.uid); }
+    function myUser() { return get(myRef()).data; }
+    function isActive() {
+      return signedIn() && exists(myRef()) && myUser().estado_cuenta == 'Activo';
+    }
+    function isAdmin() { return isActive() && myUser().rol_global == 'Admin_General'; }
+    function changed() { return request.resource.data.diff(resource.data).affectedKeys(); }
+    function isPublic(d) { return d.estado_aprobacion == 'Aprobado' && d.estado_logico == 'Activo'; }
+    function nonEmpty(v) { return v is string && v.size() > 0; }
+
+    // Denominaciones válidas (Apps 1 a 4 usan una; la App 5 todas).
+    function denominaciones() {
+      return ['Catolica', 'Evangelica', 'TestigosJehova', 'SantosUltimosDias', 'Adventista'];
+    }
+
+    // Moderación: si cambia estado_aprobacion, solo puede pasar a Aprobado o
+    // Rechazado y quien modera NO puede ser quien creó el registro.
+    // (El Admin General tiene su propia regla y sí puede.)
+    function moderacionValida() {
+      return !changed().hasAny(['estado_aprobacion'])
+        || (resource.data.creado_por != myRef()
+            && request.resource.data.estado_aprobacion in ['Aprobado', 'Rechazado']);
+    }
+
+    // ---------- USERS ----------
+    match /users/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+
+      // Cada uno crea solo su propio perfil, como Usuario y con la gamificación en cero
+      allow create: if signedIn() && request.auth.uid == uid
+        && request.resource.data.uid == uid
+        && request.resource.data.rol_global == 'Usuario'
+        && request.resource.data.estado_cuenta == 'Activo'
+        && request.resource.data.puntos_totales == 0
+        && request.resource.data.racha_actual == 0
+        && request.resource.data.insignias_desbloqueadas.size() == 0;
+
+      // El usuario solo puede cambiar su nombre y su "Modo Incógnito"
+      allow update: if (isActive() && request.auth.uid == uid
+                         && changed().hasOnly(['nombre_completo', 'perfil_publico']))
+                    || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // ---------- IGLESIAS ----------
+    match /iglesias/{id} {
+      function isOwner()  { return resource.data.creado_por == myRef(); }
+      function isLeader() { return resource.data.lider_uid_ref == myRef(); }
+      function valid(d) {
+        return nonEmpty(d.nombre)
+          && d.denominacion in denominaciones()
+          && ((d.tipo == 'Fisica' && d.ubicacion is latlng)
+              || (d.tipo == 'Virtual' && nonEmpty(d.link_virtual)))
+          && nonEmpty(d.pais) && nonEmpty(d.localidad);
+      }
+
+      // Público si está aprobada; si está Pendiente o Rechazada, solo la ven
+      // su creador, su líder (aprobador) o el admin (RF-2.4)
+      allow read: if isPublic(resource.data)
+        || (signedIn() && (isOwner() || isLeader() || isAdmin()));
+
+      // Datos de administración que solo cambian al reclamar, aprobar un
+      // reclamo, importar de OpenStreetMap o verificar la denominación.
+      function camposAdministracion() {
+        return ['estado_administracion', 'origen', 'osm_id', 'verificacion_denominacion',
+                'criterio_osm'];
+      }
+      function campoNuloOAusente(d, k) { return !(k in d) || d[k] == null; }
+
+      // Formulario "Nueva iglesia": Pendiente, Informada, sin líder y
+      // con origen Usuario / Sin_Administrador.
+      allow create: if isActive() && valid(request.resource.data)
+        && request.resource.data.creado_por == myRef()
+        && request.resource.data.estado_aprobacion == 'Pendiente'
+        && request.resource.data.oficialidad == 'Informada'
+        && request.resource.data.estado_logico == 'Activo'
+        && request.resource.data.lider_uid_ref == null
+        && (!('origen' in request.resource.data) || request.resource.data.origen == 'Usuario')
+        && (!('estado_administracion' in request.resource.data)
+            || request.resource.data.estado_administracion == 'Sin_Administrador')
+        && campoNuloOAusente(request.resource.data, 'osm_id')
+        && campoNuloOAusente(request.resource.data, 'verificacion_denominacion')
+        && campoNuloOAusente(request.resource.data, 'criterio_osm');
+
+      // Importación de OpenStreetMap: solo el Admin General, con el id fijo
+      // 'osm_<tipo>_<id>' (idempotente), pública y sin administrador.
+      allow create: if isAdmin() && valid(request.resource.data)
+        && request.resource.data.origen == 'OSM'
+        && nonEmpty(request.resource.data.osm_id)
+        && id == 'osm_' + request.resource.data.osm_id.replace('/', '_')
+        && request.resource.data.estado_aprobacion == 'Aprobado'
+        && request.resource.data.estado_logico == 'Activo'
+        && request.resource.data.estado_administracion == 'Sin_Administrador'
+        && request.resource.data.verificacion_denominacion in ['Confirmada_OSM', 'Por_Verificar']
+        && (campoNuloOAusente(request.resource.data, 'criterio_osm')
+            || request.resource.data.criterio_osm in ['Etiqueta_OSM', 'Por_Nombre', 'Nombre_Catolico', 'Sin_Marcador'])
+        && request.resource.data.lider_uid_ref == null
+        && request.resource.data.creado_por == myRef();
+
+      // El líder (Pastor/Padre aprobador) edita y modera, salvo lo que él
+      // mismo creó. El creador edita o hace borrado lógico, pero no puede
+      // aprobarse a sí mismo.
+      // Quien reclama una iglesia pública sin administrador solo puede pasarla
+      // a "Reclamacion_Pendiente", y en el mismo lote que crea su solicitud.
+      // Una importada de OSM pertenece a la denominación con la que se
+      // importó: ni siquiera el Admin General le cambia la denominación ni el
+      // elemento de OSM, para que la importación de una app nunca pise la de
+      // otra.
+      allow update: if (isAdmin()
+            && (resource.data.get('origen', '') != 'OSM'
+                || !changed().hasAny(['denominacion', 'osm_id', 'origen'])))
+        || (isActive() && isLeader() && valid(request.resource.data)
+            && !changed().hasAny(['creado_por', 'lider_uid_ref', 'denominacion'])
+            && !changed().hasAny(camposAdministracion())
+            && moderacionValida())
+        || (isActive() && isOwner() && valid(request.resource.data)
+            && !changed().hasAny(['creado_por', 'lider_uid_ref', 'estado_aprobacion',
+                                   'oficialidad', 'denominacion'])
+            && !changed().hasAny(camposAdministracion()))
+        || (isActive() && isPublic(resource.data)
+            && changed().hasOnly(['estado_administracion'])
+            && resource.data.get('estado_administracion', 'Sin_Administrador') == 'Sin_Administrador'
+            && resource.data.lider_uid_ref == null
+            && request.resource.data.estado_administracion == 'Reclamacion_Pendiente'
+            && existsAfter(/databases/$(database)/documents/solicitudes_reclamo/$(id + '_' + request.auth.uid)));
+
+      allow delete: if isAdmin(); // borrado físico solo para el Admin General (RF-2.5)
+    }
+
+    // ---------- SOLICITUDES DE RECLAMO ----------
+    // Id = '<idIglesia>_<uid>'. Cada usuario crea la suya; solo el Admin
+    // General ve todas y las aprueba o rechaza.
+    match /solicitudes_reclamo/{id} {
+      function iglesiaReclamable(idIglesia) {
+        let ig = get(/databases/$(database)/documents/iglesias/$(idIglesia)).data;
+        return isPublic(ig) && ig.lider_uid_ref == null
+          && ig.get('estado_administracion', 'Sin_Administrador')
+               in ['Sin_Administrador', 'Reclamacion_Pendiente'];
+      }
+      function solicitudValida(d) {
+        return d.uid_solicitante == request.auth.uid
+          && d.solicitante_ref == myRef()
+          && nonEmpty(d.id_iglesia)
+          && id == d.id_iglesia + '_' + request.auth.uid
+          && d.iglesia_ref == /databases/$(database)/documents/iglesias/$(d.id_iglesia)
+          && d.estado == 'Pendiente'
+          && nonEmpty(d.cargo) && d.cargo.size() <= 80
+          && (d.mensaje == null || (d.mensaje is string && d.mensaje.size() <= 500))
+          && d.resuelto_por == null
+          && iglesiaReclamable(d.id_iglesia);
+      }
+
+      // resource == null: permite consultar si existe mi propia solicitud.
+      allow get: if isAdmin()
+        || (signedIn() && (resource == null || resource.data.uid_solicitante == request.auth.uid));
+      allow list: if isAdmin();
+
+      allow create: if isActive() && solicitudValida(request.resource.data);
+
+      // El Admin General resuelve. El solicitante solo puede reenviar una
+      // solicitud Rechazada (vuelve a Pendiente, misma iglesia).
+      allow update: if isAdmin()
+        || (isActive() && resource.data.uid_solicitante == request.auth.uid
+            && resource.data.estado == 'Rechazado'
+            && request.resource.data.id_iglesia == resource.data.id_iglesia
+            && solicitudValida(request.resource.data));
+
+      allow delete: if isAdmin();
+    }
+
+    // ---------- IMPORTADAS DE OSM DESCARTADAS ----------
+    // El Admin General anota aquí las iglesias de OpenStreetMap que descartó
+    // para que una nueva importación de ESA denominación no las vuelva a
+    // crear. Id: '<Denominacion>_<idIglesia>' (los antiguos, sin el campo
+    // denominacion, son católicos y usan el id de la iglesia).
+    match /osm_descartadas/{id} {
+      allow read, delete: if isAdmin();
+      allow create, update: if isAdmin()
+        && request.resource.data.denominacion in denominaciones()
+        && id == request.resource.data.denominacion + '_' + request.resource.data.id_iglesia;
+    }
+
+    // ---------- MINISTERIOS ----------
+    match /ministerios/{id} {
+      function isOwner() { return resource.data.creado_por == myRef(); }
+      function isCoord() { return resource.data.coordinador_ref == myRef(); }
+      function isParentLeader() {
+        return resource.data.iglesia_ref != null
+          && get(resource.data.iglesia_ref).data.lider_uid_ref == myRef();
+      }
+      function valid(d) {
+        return nonEmpty(d.nombre)
+          && (!('denominacion' in d) || d.denominacion == null
+              || d.denominacion in denominaciones())
+          && ((d.tipo_ubicacion == 'Iglesia' && d.iglesia_ref != null)
+              || (d.tipo_ubicacion == 'Fisica' && d.ubicacion_propia is latlng
+                  && nonEmpty(d.pais) && nonEmpty(d.localidad))
+              || (d.tipo_ubicacion == 'Virtual' && nonEmpty(d.link_virtual)));
+      }
+
+      allow read: if isPublic(resource.data)
+        || (signedIn() && (isOwner() || isCoord() || isParentLeader() || isAdmin()));
+
+      allow create: if isActive() && valid(request.resource.data)
+        && request.resource.data.creado_por == myRef()
+        && request.resource.data.coordinador_ref == myRef()
+        && request.resource.data.estado_aprobacion == 'Pendiente'
+        && request.resource.data.estado_logico == 'Activo';
+
+      // El Pastor/Padre de la iglesia matriz modera (no lo que él creó).
+      // Los ministerios independientes los modera solo el Admin General.
+      allow update: if isAdmin()
+        || (isActive() && isParentLeader() && valid(request.resource.data)
+            && !changed().hasAny(['creado_por']) && moderacionValida())
+        || (isActive() && isCoord() && valid(request.resource.data)
+            && !changed().hasAny(['creado_por', 'estado_aprobacion']));
+
+      allow delete: if isAdmin();
+    }
+
+    // ---------- EVENTOS ----------
+    match /eventos/{id} {
+      function isOwner() { return resource.data.creado_por == myRef(); }
+      function isApprover() {
+        return (resource.data.iglesia_ref != null
+                  && get(resource.data.iglesia_ref).data.lider_uid_ref == myRef())
+            || (resource.data.ministerio_ref != null
+                  && get(resource.data.ministerio_ref).data.coordinador_ref == myRef());
+      }
+      function valid(d) {
+        return nonEmpty(d.titulo) && nonEmpty(d.categoria)
+          && d.tipo_actividad in ['Misa', 'Culto', 'Reunion']
+          && d.fecha_hora_inicio is timestamp
+          && (d.fecha_hora_fin == null || d.fecha_hora_fin > d.fecha_hora_inicio)
+          && (d.iglesia_ref != null || d.ministerio_ref != null)
+          && (d.es_virtual == false || nonEmpty(d.link_virtual));
+      }
+
+      // Lectura pública solo de eventos aprobados y activos
+      allow read: if isPublic(resource.data)
+        || (signedIn() && (isOwner() || isAdmin() || isApprover()));
+
+      // Se permite crear aunque la iglesia esté Pendiente (RF-4.2)
+      allow create: if isActive() && valid(request.resource.data)
+        && request.resource.data.creado_por == myRef()
+        && request.resource.data.estado_aprobacion == 'Pendiente'
+        && request.resource.data.estado_logico == 'Activo';
+
+      allow update: if isAdmin()
+        || (isActive() && isApprover() && valid(request.resource.data)
+            && !changed().hasAny(['creado_por']) && moderacionValida())
+        || (isActive() && isOwner() && valid(request.resource.data)
+            && !changed().hasAny(['creado_por', 'estado_aprobacion']));
+
+      allow delete: if isAdmin();
+    }
+
+    // ---------- CHECKINS (App 6 – Gamificación, Fase 2) ----------
+    // Los usa solo la App 6 (app aparte, aún no programada). Las Apps 1 a 5
+    // no leen ni escriben aquí.
+    match /checkins/{id} {
+      allow read, write: if false; // cerrado hasta programar la App 6
+    }
+  }
+}

@@ -1,0 +1,5693 @@
+{
+ "fuente": "OpenStreetMap (Overpass API)",
+ "atribucion": "© Colaboradores de OpenStreetMap — https://www.openstreetmap.org/copyright",
+ "licencia": "Open Database License (ODbL) 1.0 — https://opendatacommons.org/licenses/odbl/1-0/",
+ "area": "Lima Metropolitana y Callao",
+ "denominacion": "Catolica",
+ "fecha_datos_osm": "2026-10-23T17:18:31Z",
+ "criterio": "amenity=place_of_worship + religion=christian. Confirmada_OSM: denomination=catholic|roman_catholic. Por_Verificar: sin denomination y con nombre claramente católico (Parroquia, Capilla, Santuario, Basílica, Catedral, Monasterio, Convento, o Templo/Iglesia + San/Santa/Santo/Santos/Nuestra Señora/Virgen/Sagrado Corazón/Cristo Rey/Inmaculada/Señor de). Se excluyen otras denominaciones y nombres de otras confesiones en ambos niveles. criterio_osm: Etiqueta_OSM (nivel A), Nombre_Catolico (nivel B con marca católica) o Sin_Marcador (sin etiqueta ni marca: revisar una por una; se excluyen además nombres típicos de iglesias no católicas).",
+ "total": 660,
+ "total_confirmadas": 323,
+ "total_por_verificar": 337,
+ "total_sin_marcador": 166,
+ "iglesias": [
+  {
+   "osm_id": "way/1054620194",
+   "nombre": "Anexo Heroes del Cenepa",
+   "lat": -12.1593611,
+   "lng": -76.9136087,
+   "direccion": "Asentamiento Humanos Union y Paz",
+   "distrito": "Villa maria del triunfo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/519428165",
+   "nombre": "Anexo los Portales",
+   "lat": -11.932093,
+   "lng": -77.0833948,
+   "direccion": "Calle Los Tulipanes",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/408470797",
+   "nombre": "Arzobispado de Lima",
+   "lat": -12.042569,
+   "lng": -77.0362786,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/402156549",
+   "nombre": "Basilica María Auxiliadora",
+   "lat": -12.060962,
+   "lng": -77.0429174,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/126587273",
+   "nombre": "Basílica de San Pedro",
+   "lat": -12.0494225,
+   "lng": -77.028738,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/440269140",
+   "nombre": "Basílica del Santísimo Rosario",
+   "lat": -12.0441302,
+   "lng": -77.0318798,
+   "direccion": "Jirón Conde de Superunda",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/408470796",
+   "nombre": "Basílica Santuario Santa Rosa de Lima",
+   "lat": -12.0426065,
+   "lng": -77.035293,
+   "direccion": "Avenida Tacna 100",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436575810",
+   "nombre": "Betania",
+   "lat": -12.08164,
+   "lng": -77.0319972,
+   "direccion": "Avenida Militar",
+   "distrito": "Lince",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/5563055812",
+   "nombre": "Capilla",
+   "lat": -11.9791624,
+   "lng": -77.0856879,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5757702538",
+   "nombre": "Capilla",
+   "lat": -12.0977771,
+   "lng": -77.0651034,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/247149459",
+   "nombre": "Capilla",
+   "lat": -11.9926059,
+   "lng": -77.0965575,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/442095922",
+   "nombre": "Capilla",
+   "lat": -12.1587303,
+   "lng": -76.9376687,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/445971591",
+   "nombre": "Capilla",
+   "lat": -12.1606589,
+   "lng": -76.9587355,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/637187219",
+   "nombre": "Capilla",
+   "lat": -12.0739076,
+   "lng": -77.0689685,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/372144510",
+   "nombre": "Capilla \"Cristo Mensajero de la Paz\"",
+   "lat": -12.2233114,
+   "lng": -76.921647,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437827303",
+   "nombre": "Capilla \"María Msionera\"",
+   "lat": -12.1786481,
+   "lng": -76.9605635,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/372289903",
+   "nombre": "Capilla \"Ntra Sra de la Evangelización\"",
+   "lat": -12.1950083,
+   "lng": -76.9754178,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437990713",
+   "nombre": "Capilla \"Sagrada Familia\"",
+   "lat": -12.1771098,
+   "lng": -76.9637169,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1380576826",
+   "nombre": "Capilla Asunción de María",
+   "lat": -11.9761267,
+   "lng": -77.0599298,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7541859917",
+   "nombre": "Capilla Basilica Santa Rosa",
+   "lat": -12.1663183,
+   "lng": -77.021713,
+   "direccion": "Avenida Carlos Alcorta 232",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/729957032",
+   "nombre": "Capilla Casa Hogar Villa Martha",
+   "lat": -12.1870067,
+   "lng": -76.8658221,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/439790354",
+   "nombre": "Capilla Cena del Señor",
+   "lat": -12.0446393,
+   "lng": -76.9739201,
+   "direccion": "Avenida Los Eucaliptos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/560099810",
+   "nombre": "Capilla Corazón de María",
+   "lat": -12.081915,
+   "lng": -76.981283,
+   "direccion": "Sonora 170",
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1098855871",
+   "nombre": "Capilla Cristo Buen Pastor",
+   "lat": -11.9431189,
+   "lng": -76.995958,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437711106",
+   "nombre": "Capilla Cristo Buen Pastor",
+   "lat": -12.2018735,
+   "lng": -77.0042687,
+   "direccion": "Avenida Los Horizontes",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/649341307",
+   "nombre": "Capilla Cristo de la Paz",
+   "lat": -11.9344462,
+   "lng": -76.9883645,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/834499203",
+   "nombre": "Capilla Cristo Pobre",
+   "lat": -12.0024635,
+   "lng": -77.0146369,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8327977614",
+   "nombre": "Capilla Cristo Redentor",
+   "lat": -12.1513005,
+   "lng": -77.0065009,
+   "direccion": "Calle Las Mandarinas",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/517476262",
+   "nombre": "Capilla Cristo Redentor",
+   "lat": -12.0325432,
+   "lng": -76.9624642,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437869122",
+   "nombre": "Capilla Cristo Rey",
+   "lat": -11.9766906,
+   "lng": -76.9971671,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/496178248",
+   "nombre": "Capilla Cristo Rey",
+   "lat": -12.1769108,
+   "lng": -77.0244027,
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/185438417",
+   "nombre": "Capilla Cristo Vencedor",
+   "lat": -11.9841864,
+   "lng": -77.0124988,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8444062638",
+   "nombre": "Capilla de Cardal",
+   "lat": -12.1887106,
+   "lng": -76.8535519,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6227473022",
+   "nombre": "Capilla de la Cruz",
+   "lat": -11.8851204,
+   "lng": -77.0194237,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/14039688396",
+   "nombre": "Capilla de la Universidad de Lima",
+   "lat": -12.0857342,
+   "lng": -76.9708373,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1155045824",
+   "nombre": "Capilla de la Vírgen de Fátima",
+   "lat": -11.9430961,
+   "lng": -76.979652,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4709139194",
+   "nombre": "Capilla de Quinuapata",
+   "lat": -12.0368475,
+   "lng": -77.0798692,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/438662237",
+   "nombre": "Capilla de San Atanacio de Pegregal",
+   "lat": -12.1185763,
+   "lng": -76.9972911,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/440269894",
+   "nombre": "Capilla de Veracruz",
+   "lat": -12.0441731,
+   "lng": -77.0321609,
+   "direccion": "Jirón Conde de Superunda",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/358983093",
+   "nombre": "Capilla del Cuadro",
+   "lat": -11.9881676,
+   "lng": -76.7972666,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1036409224",
+   "nombre": "Capilla del Milagro",
+   "lat": -12.0459714,
+   "lng": -77.0270451,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/445513704",
+   "nombre": "Capilla El Santísimo Madero",
+   "lat": -12.0700459,
+   "lng": -76.7562855,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7134603927",
+   "nombre": "Capilla Espíritu Santo",
+   "lat": -12.2161149,
+   "lng": -76.9257544,
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/288663198",
+   "nombre": "Capilla Familia de Nazareth",
+   "lat": -11.9577949,
+   "lng": -76.998001,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/564106488",
+   "nombre": "Capilla Guadalupe",
+   "lat": -12.2195512,
+   "lng": -76.9406948,
+   "direccion": "Avenida Bolívar",
+   "distrito": "Villa el Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/622542795",
+   "nombre": "Capilla Inmaculada Concepción",
+   "lat": -12.1241665,
+   "lng": -76.8055844,
+   "distrito": "Cieneguilla",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/806032046",
+   "nombre": "Capilla Inmaculado Corazón de María (Noviciado Agustino)",
+   "lat": -12.2146073,
+   "lng": -77.0026352,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/538539621",
+   "nombre": "Capilla Jardines de la Paz",
+   "lat": -12.2876757,
+   "lng": -76.8701464,
+   "distrito": "Lurín",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/14301481328",
+   "nombre": "Capilla Jesús Crucificado",
+   "lat": -12.1771932,
+   "lng": -77.0213169,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/575674113",
+   "nombre": "Capilla Juan XXIII",
+   "lat": -12.1078596,
+   "lng": -76.9991461,
+   "direccion": "Calle Alfa",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/564155829",
+   "nombre": "Capilla La Cruz",
+   "lat": -12.21776,
+   "lng": -76.9359646,
+   "direccion": "St. 3 Grupo 14-A",
+   "distrito": "Villa el Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/503803635",
+   "nombre": "Capilla La Inmaculada",
+   "lat": -12.1006703,
+   "lng": -76.8037566,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/483500697",
+   "nombre": "Capilla La Resurrección",
+   "lat": -11.9865691,
+   "lng": -76.8134479,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/969845921",
+   "nombre": "Capilla La Virgen de Nazareth",
+   "lat": -12.0468053,
+   "lng": -76.9984294,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8172575615",
+   "nombre": "Capilla Las Torres",
+   "lat": -12.1846404,
+   "lng": -76.9516937,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3597537947",
+   "nombre": "Capilla Los Jardines",
+   "lat": -12.0146605,
+   "lng": -77.0558446,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/423727901",
+   "nombre": "Capilla María Auxiliadora",
+   "lat": -12.1655596,
+   "lng": -76.9960556,
+   "direccion": "Jirón Poseidón",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/446753054",
+   "nombre": "Capilla María Auxiliadora",
+   "lat": -12.2278793,
+   "lng": -76.9174222,
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/674090311",
+   "nombre": "Capilla María Auxiliadora",
+   "lat": -11.8952427,
+   "lng": -77.0411974,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/119441947",
+   "nombre": "Capilla María de Nazareth",
+   "lat": -11.9603347,
+   "lng": -76.990644,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/543961784",
+   "nombre": "Capilla María Madre de Dios",
+   "lat": -12.1246334,
+   "lng": -76.9883948,
+   "distrito": "Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/10216131539",
+   "nombre": "Capilla Medalla Milagrosa",
+   "lat": -12.1739226,
+   "lng": -76.9451789,
+   "direccion": "Calle 8 de Octubre",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3744250341",
+   "nombre": "Capilla Medalla Milagrosa",
+   "lat": -12.2233403,
+   "lng": -76.9257857,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/6496460528",
+   "nombre": "Capilla Medalla Milagrosa",
+   "lat": -12.0111282,
+   "lng": -77.0047925,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/608078185",
+   "nombre": "Capilla Morón Chico",
+   "lat": -11.9840605,
+   "lng": -76.8084914,
+   "direccion": "Calle Los Duraznos",
+   "distrito": "Chaclacayo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/851664554",
+   "nombre": "Capilla Niño Jesus de Santa Isolina",
+   "lat": -11.957039,
+   "lng": -77.0611609,
+   "direccion": "Rio Perene",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/446932306",
+   "nombre": "Capilla Niño Jesús",
+   "lat": -12.1333506,
+   "lng": -76.9394708,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/671010822",
+   "nombre": "Capilla Nuestra Señora de la Evangelización",
+   "lat": -12.1955519,
+   "lng": -77.0211573,
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437500759",
+   "nombre": "Capilla Nuestra Señora de la Solidaridad",
+   "lat": -12.1670945,
+   "lng": -76.9592546,
+   "direccion": "Calle 4",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/688432890",
+   "nombre": "Capilla Nuestra Señora de Las Mercedes",
+   "lat": -12.3543444,
+   "lng": -76.8039672,
+   "distrito": "Punta Negra",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3974308945",
+   "nombre": "Capilla Nuestra Señora de Loreto",
+   "lat": -12.0062681,
+   "lng": -77.0594836,
+   "direccion": "Pasillo de estacionamiento",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/565992323",
+   "nombre": "Capilla Nuestra Señora del Rosario",
+   "lat": -12.195209,
+   "lng": -76.9198935,
+   "direccion": "Avenida San Martin",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/8705457",
+   "nombre": "Capilla Parque del Recuerdo",
+   "lat": -12.2558288,
+   "lng": -76.9171009,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8173747673",
+   "nombre": "Capilla Sagrada Familia",
+   "lat": -12.1863809,
+   "lng": -76.9610441,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6413299092",
+   "nombre": "Capilla Sagrado Corazón de Jesús",
+   "lat": -12.0643281,
+   "lng": -76.9833878,
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7092414447",
+   "nombre": "Capilla Sagrado Corazón de Jesús",
+   "lat": -12.1721692,
+   "lng": -76.9497597,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7134757765",
+   "nombre": "Capilla Sagrado Corazón de Jesús",
+   "lat": -12.2098153,
+   "lng": -76.9360718,
+   "direccion": "Avenida Central 1849",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8642079013",
+   "nombre": "Capilla Sagrado Corazón de Jesús",
+   "lat": -12.1923428,
+   "lng": -76.9556924,
+   "direccion": "Avenida Micaela Bastidas",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/661067396",
+   "nombre": "Capilla Sagrado Corazón de Jesús",
+   "lat": -12.1902997,
+   "lng": -77.0184334,
+   "direccion": "Avenida Vía Central",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1384937785",
+   "nombre": "Capilla Sagrados Corazones",
+   "lat": -11.9459793,
+   "lng": -77.0783522,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/496725663",
+   "nombre": "Capilla San Agustín",
+   "lat": -12.2209025,
+   "lng": -76.8535182,
+   "direccion": "Avenida Fernando Reusche",
+   "distrito": "Pachacámac",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1105417970",
+   "nombre": "Capilla San Carlos Borroneo",
+   "lat": -11.988243,
+   "lng": -77.0069175,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1109632934",
+   "nombre": "Capilla San Columbano",
+   "lat": -11.9392322,
+   "lng": -77.0011947,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/462859070",
+   "nombre": "Capilla San Columbano y Santo Toribio",
+   "lat": -12.037393,
+   "lng": -77.0634563,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/620203335",
+   "nombre": "Capilla San Daniel Comboni",
+   "lat": -12.1912663,
+   "lng": -77.0236847,
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7089644529",
+   "nombre": "Capilla San Ignacio de Loyola",
+   "lat": -12.2355562,
+   "lng": -76.9451669,
+   "direccion": "Sector 9, grupo 3A , lomo de corvina de Villa el Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4447158891",
+   "nombre": "Capilla San José de Cluny",
+   "lat": -11.9436485,
+   "lng": -76.7086439,
+   "direccion": "Carretera Central",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1204564046",
+   "nombre": "Capilla San Juan Bautista",
+   "lat": -12.0171942,
+   "lng": -77.0037565,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/653200228",
+   "nombre": "Capilla San Juan Pablo II",
+   "lat": -12.2321554,
+   "lng": -76.8932674,
+   "distrito": "Pachácamac",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/995144350",
+   "nombre": "Capilla San Juan Pablo II",
+   "lat": -11.9798809,
+   "lng": -77.068334,
+   "direccion": "Marcara",
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/9391040474",
+   "nombre": "Capilla San Martín de Porres",
+   "lat": -11.9423941,
+   "lng": -76.7010037,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1100965222",
+   "nombre": "Capilla San Martín de Porres",
+   "lat": -12.1492645,
+   "lng": -77.0166131,
+   "direccion": "Jirón Manuel de la Fuente Chavez",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1299899984",
+   "nombre": "Capilla San Martín de Porres",
+   "lat": -11.9802232,
+   "lng": -77.0397317,
+   "direccion": "Avenida Coricancha",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/517487994",
+   "nombre": "Capilla San Martín de Porres",
+   "lat": -12.0325257,
+   "lng": -76.9539896,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/837447820",
+   "nombre": "Capilla San Martín de Porres",
+   "lat": -12.0196136,
+   "lng": -77.010702,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/353965029",
+   "nombre": "Capilla San Patricio",
+   "lat": -12.0152,
+   "lng": -77.0553338,
+   "direccion": "San Juan Bautista",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1359420981",
+   "nombre": "Capilla San Vicente de Paul",
+   "lat": -11.975867,
+   "lng": -77.0542609,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11233899030",
+   "nombre": "Capilla Santa Maravillas de Jesús",
+   "lat": -11.8352868,
+   "lng": -77.1491879,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/605774042",
+   "nombre": "Capilla Santa María de Maranga",
+   "lat": -12.0751929,
+   "lng": -77.0932131,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7103283237",
+   "nombre": "Capilla Santa Rosa",
+   "lat": -12.2294782,
+   "lng": -76.913867,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/529316079",
+   "nombre": "Capilla Santa Rosa",
+   "lat": -12.1453447,
+   "lng": -77.0092862,
+   "direccion": "Calle Natalio Sánchez",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/501531242",
+   "nombre": "Capilla Santa Rosa de Malpaso",
+   "lat": -12.1753115,
+   "lng": -76.8453016,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/622541305",
+   "nombre": "Capilla Santa Rosa de Manchay",
+   "lat": -12.1604595,
+   "lng": -76.8677545,
+   "direccion": "Avenida Víctor Malásquez Chacaltana",
+   "distrito": "Pachacámac",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4818391222",
+   "nombre": "Capilla Santo Tomás",
+   "lat": -12.0696041,
+   "lng": -76.9673943,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/806573931",
+   "nombre": "Capilla Santísima Cruz",
+   "lat": -12.1451016,
+   "lng": -76.9249953,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/831449110",
+   "nombre": "Capilla Santísima Cruz",
+   "lat": -11.9749804,
+   "lng": -77.012706,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/419809077",
+   "nombre": "Capilla Santísima Trinidad - Rodrigo Franco",
+   "lat": -12.1642071,
+   "lng": -76.9848458,
+   "direccion": "Pasaje El Reyesuelo",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/501531234",
+   "nombre": "Capilla Santísima Virgen del Carmen",
+   "lat": -12.2393138,
+   "lng": -76.8591291,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/481889412",
+   "nombre": "Capilla Santísimo Cristo del Madero",
+   "lat": -12.2278477,
+   "lng": -76.8888326,
+   "direccion": "Avenida Las Palmas",
+   "distrito": "Lurín",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/518606478",
+   "nombre": "Capilla Señor de la Divina Misericordia",
+   "lat": -11.9561156,
+   "lng": -77.0788622,
+   "direccion": "Carlos Ubillus Oleman",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/710581731",
+   "nombre": "Capilla Señor de la Justicia",
+   "lat": -12.180999,
+   "lng": -77.0209426,
+   "direccion": "Calle Ricardo Palma",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11578408814",
+   "nombre": "Capilla Señor De la Misericordia",
+   "lat": -11.9818016,
+   "lng": -77.0999738,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3753267239",
+   "nombre": "Capilla Señor de los Milagros",
+   "lat": -12.2104695,
+   "lng": -76.9539356,
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6802545863",
+   "nombre": "Capilla Señor de Los Milagros",
+   "lat": -12.1984405,
+   "lng": -76.9441788,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7721671676",
+   "nombre": "Capilla Señor de Los Milagros",
+   "lat": -12.1851882,
+   "lng": -76.9386006,
+   "direccion": "Calle Cieneguilla",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/568603790",
+   "nombre": "Capilla Señor de Los Milagros",
+   "lat": -12.189238,
+   "lng": -76.9488373,
+   "direccion": "Avenida Modelo",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/671010271",
+   "nombre": "Capilla Señor de Los Milagros",
+   "lat": -12.1976203,
+   "lng": -77.0264326,
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/725404915",
+   "nombre": "Capilla Señor de los Milagros",
+   "lat": -12.1961707,
+   "lng": -76.9452298,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/572717666",
+   "nombre": "Capilla Virgen de Chapi",
+   "lat": -12.0355216,
+   "lng": -76.9495171,
+   "direccion": "Avenida Metropolitana con Avenida La Cultura",
+   "distrito": "Santa Anita",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/803030350",
+   "nombre": "Capilla Virgen de Fátima Morón",
+   "lat": -11.9793799,
+   "lng": -76.7934278,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/8699775739",
+   "nombre": "Capilla Virgen de la Candelaria",
+   "lat": -12.2468444,
+   "lng": -76.921039,
+   "direccion": "Calle 16",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4538922289",
+   "nombre": "Capilla Virgen de la Medalla Milagrosa",
+   "lat": -11.9663472,
+   "lng": -77.0712281,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8699717575",
+   "nombre": "Capilla Virgen de La Merced",
+   "lat": -12.2431955,
+   "lng": -76.929543,
+   "direccion": "Calle F",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3743107234",
+   "nombre": "Capilla Virgen de Las Mercedes",
+   "lat": -12.1351141,
+   "lng": -76.8238871,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/381855806",
+   "nombre": "Capilla Virgen de Loreto",
+   "lat": -12.131623,
+   "lng": -76.9910264,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/483158797",
+   "nombre": "Capilla Virgen de Los Pobres",
+   "lat": -11.9454542,
+   "lng": -76.7061206,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/9391040510",
+   "nombre": "Capilla Virgen de Lourdes",
+   "lat": -11.942222,
+   "lng": -76.6991902,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/444682474",
+   "nombre": "Capilla Virgen de Lourdes",
+   "lat": -12.2013638,
+   "lng": -76.8722979,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5319283124",
+   "nombre": "Capilla Virgen del carmen",
+   "lat": -12.0462557,
+   "lng": -76.9182382,
+   "direccion": "Monteverde",
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/444285915",
+   "nombre": "Capilla Virgen del Carmen",
+   "lat": -12.1882141,
+   "lng": -77.0064579,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/514292171",
+   "nombre": "Capilla Virgen del Carmen",
+   "lat": -12.1865411,
+   "lng": -77.0001568,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/519185325",
+   "nombre": "Capilla Virgen del Carmen",
+   "lat": -12.1872501,
+   "lng": -76.8669358,
+   "distrito": "Picapiedra",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1386036694",
+   "nombre": "Capilla Virgen María de los Ángeles",
+   "lat": -11.9949315,
+   "lng": -77.0679199,
+   "direccion": "Jirón Manuel Gonzales Prada",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/483505488",
+   "nombre": "Capilla Ñaña Sud",
+   "lat": -11.9876262,
+   "lng": -76.8112789,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/4143633289",
+   "nombre": "Casa de Espiritualidad San José de Cluny",
+   "lat": -12.0972085,
+   "lng": -77.0682658,
+   "direccion": "Bonnemaison",
+   "distrito": "Magdalena del Mar",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436284600",
+   "nombre": "Casa de la Biblia",
+   "lat": -12.058053,
+   "lng": -77.1301022,
+   "direccion": "Avenida Guardia Chalaca 1360",
+   "distrito": "Callao",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4990745030",
+   "nombre": "Casa de Nazareth",
+   "lat": -12.1484872,
+   "lng": -77.0217253,
+   "direccion": "Avenida Prolongacion General José de San Martín 030",
+   "distrito": "Barranco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4990753010",
+   "nombre": "Casa de Retiro - cruzadas de Santa María",
+   "lat": -12.1546671,
+   "lng": -77.0232886,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/318788560",
+   "nombre": "Catedral de Huaycán",
+   "lat": -12.014022,
+   "lng": -76.8262989,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/8531715",
+   "nombre": "Catedral de Lima",
+   "lat": -12.0467406,
+   "lng": -77.0296657,
+   "direccion": "Jirón Carabaya 200",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7125383810",
+   "nombre": "Catedral San Pedro de Lurín",
+   "lat": -12.2736703,
+   "lng": -76.868514,
+   "direccion": "Jirón Bolognesi 398",
+   "distrito": "Lurín",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4331509127",
+   "nombre": "Católica",
+   "lat": -11.8640031,
+   "lng": -77.0758728,
+   "direccion": "Puente Piedra",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437504160",
+   "nombre": "Cene Señor de La Misericordia",
+   "lat": -12.0519736,
+   "lng": -77.0150721,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/458599265",
+   "nombre": "Centro Parroqual San Pedro de Morovejo",
+   "lat": -12.235778,
+   "lng": -76.9104085,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/2176685674",
+   "nombre": "Centro Parroquial Carmelitas",
+   "lat": -12.1288148,
+   "lng": -77.0226149,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3744250396",
+   "nombre": "Centro Parroquial de Salud Mental \"San José\"",
+   "lat": -12.2189589,
+   "lng": -76.9488974,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/447235351",
+   "nombre": "Centro Parroquial Madre Redentor",
+   "lat": -12.181429,
+   "lng": -76.9814616,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/424826995",
+   "nombre": "Centro Parroquial San Martín de Porres",
+   "lat": -12.1659298,
+   "lng": -76.9660494,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/447901695",
+   "nombre": "Centro Parroquial Santa Rosa-Belén",
+   "lat": -12.1583941,
+   "lng": -76.9505677,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/447140155",
+   "nombre": "Centro Pastoral María Inmaculada",
+   "lat": -12.184214,
+   "lng": -76.9936875,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/6604268575",
+   "nombre": "Centro Pastoral San Pedro Apóstol",
+   "lat": -12.3906895,
+   "lng": -76.7765382,
+   "direccion": "Avenida Mar Pacifico Sur",
+   "distrito": "San Bartolo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/521123666",
+   "nombre": "Centro Pastoral Santa María de la Reconciliación",
+   "lat": -12.060522,
+   "lng": -77.1229024,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1211962991",
+   "nombre": "Chuquitanta",
+   "lat": -11.9563786,
+   "lng": -77.0999728,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/454318040",
+   "nombre": "Comunidad Apostoles de María Reina de la Paz",
+   "lat": -12.2256943,
+   "lng": -76.8547424,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4360892689",
+   "nombre": "Conferencia episcopal peruana",
+   "lat": -12.084849,
+   "lng": -77.0553417,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "relation/6586667",
+   "nombre": "Convento de la Merced",
+   "lat": -12.0488077,
+   "lng": -77.0324896,
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/8052281",
+   "nombre": "Convento de la Santisima Trinidad",
+   "lat": -12.0509312,
+   "lng": -77.031245,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3827565421",
+   "nombre": "Convento de Nuestra Señora del Patrocinio",
+   "lat": -12.0359191,
+   "lng": -77.025596,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/6024022",
+   "nombre": "Convento de Santo Domingo",
+   "lat": -12.0437193,
+   "lng": -77.0318903,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/3701570797",
+   "nombre": "Convento Hermanas Franciscanas de Bamberga",
+   "lat": -12.0659737,
+   "lng": -77.0147987,
+   "direccion": "Prolongación Huánuco 1780",
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/490218374",
+   "nombre": "Convento Hernamas Carmelitas",
+   "lat": -12.2203683,
+   "lng": -76.9101336,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/616000177",
+   "nombre": "Corazon de maria",
+   "lat": -12.0681296,
+   "lng": -77.1046237,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4428343354",
+   "nombre": "Cristo Es Rey",
+   "lat": -11.9327606,
+   "lng": -77.059319,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/512394362",
+   "nombre": "Cuasi Parroquia Misionera Sagrado Corazon de Maria",
+   "lat": -12.1254182,
+   "lng": -76.950104,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/450648080",
+   "nombre": "Cáritas Parroquial",
+   "lat": -12.0615904,
+   "lng": -76.9450571,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4738036123",
+   "nombre": "César Vallejo",
+   "lat": -12.0483881,
+   "lng": -77.0025639,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/806577245",
+   "nombre": "Diócesis Lurín",
+   "lat": -12.1420121,
+   "lng": -76.9384367,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435391784",
+   "nombre": "El Buen Pastor",
+   "lat": -12.0605779,
+   "lng": -77.0585862,
+   "direccion": "Jirón Chamaya",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/8796119346",
+   "nombre": "El Divino Redentor",
+   "lat": -12.0418832,
+   "lng": -77.0846217,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4793817026",
+   "nombre": "Gruta Presentación de María",
+   "lat": -11.8961479,
+   "lng": -77.04593,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5320911325",
+   "nombre": "gruta san martin",
+   "lat": -12.2000946,
+   "lng": -76.9396255,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1122514287",
+   "nombre": "Gruta Santa Rosa",
+   "lat": -12.0604084,
+   "lng": -77.0644363,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6912889995",
+   "nombre": "Gruta Virgen del Carmen",
+   "lat": -11.9819247,
+   "lng": -77.0770279,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8975855302",
+   "nombre": "Hermandad del Señor de los Milagros de El Agustino",
+   "lat": -12.0463033,
+   "lng": -76.9982625,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4228847695",
+   "nombre": "Hermandad El Señor de los Milagros de Nazarenas",
+   "lat": -12.0446126,
+   "lng": -77.0374486,
+   "distrito": "Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/6802647630",
+   "nombre": "Hermandad Señor de los Milagros",
+   "lat": -12.2055141,
+   "lng": -76.9499113,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435357161",
+   "nombre": "Hermandad Señor de los Milagros",
+   "lat": -12.3345394,
+   "lng": -76.8241919,
+   "direccion": "Calle Mateo Pumacahua",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/512109175",
+   "nombre": "IEP Santisima Trinidad",
+   "lat": -12.1923366,
+   "lng": -77.0192063,
+   "direccion": "Avenida Principal",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/430668351",
+   "nombre": "Iglesia \"San Columbano\"",
+   "lat": -11.9935935,
+   "lng": -77.075875,
+   "direccion": "Cabana",
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1180771697",
+   "nombre": "Iglesia Amistad",
+   "lat": -12.293175,
+   "lng": -76.8547079,
+   "direccion": "Calle 1",
+   "distrito": "Lurín",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/876089378",
+   "nombre": "Iglesia catolica Carmen Alto",
+   "lat": -11.9459143,
+   "lng": -77.0301467,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11174955334",
+   "nombre": "Iglesia católica",
+   "lat": -12.0679931,
+   "lng": -77.008243,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11225204525",
+   "nombre": "Iglesia católica",
+   "lat": -11.9753463,
+   "lng": -77.1020988,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11984821148",
+   "nombre": "Iglesia católica",
+   "lat": -12.0531987,
+   "lng": -77.0853261,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4466937101",
+   "nombre": "Iglesia católica",
+   "lat": -12.0695341,
+   "lng": -77.080147,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7607121551",
+   "nombre": "Iglesia católica",
+   "lat": -12.1878726,
+   "lng": -76.9471449,
+   "direccion": "Calle 4",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/7621593",
+   "nombre": "Iglesia católica",
+   "lat": -12.1465752,
+   "lng": -77.003258,
+   "direccion": "Jirón José Galvez",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1005306906",
+   "nombre": "Iglesia católica",
+   "lat": -12.0439848,
+   "lng": -77.0017471,
+   "direccion": "Calle Copa de Oro",
+   "distrito": "El Agustino",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1136486854",
+   "nombre": "Iglesia católica",
+   "lat": -12.1525598,
+   "lng": -76.8676275,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1357064257",
+   "nombre": "Iglesia católica",
+   "lat": -12.038691,
+   "lng": -77.0805558,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1423963403",
+   "nombre": "Iglesia católica",
+   "lat": -12.115266,
+   "lng": -77.0007713,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/298243989",
+   "nombre": "Iglesia católica",
+   "lat": -12.0719928,
+   "lng": -77.1644371,
+   "distrito": "La Punta",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/302114137",
+   "nombre": "Iglesia católica",
+   "lat": -11.8927788,
+   "lng": -77.0230117,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/402968887",
+   "nombre": "Iglesia católica",
+   "lat": -12.1409807,
+   "lng": -77.0235106,
+   "direccion": "Jirón Centenario",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/434577522",
+   "nombre": "Iglesia católica",
+   "lat": -12.0583722,
+   "lng": -77.0485954,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/434952654",
+   "nombre": "Iglesia católica",
+   "lat": -12.0619693,
+   "lng": -77.1291628,
+   "direccion": "Jirón Francisco Bolognesi",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/444774866",
+   "nombre": "Iglesia católica",
+   "lat": -12.0324782,
+   "lng": -77.0462787,
+   "direccion": "Gregorio VII",
+   "distrito": "San Martín de Porres",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/678048447",
+   "nombre": "Iglesia católica",
+   "lat": -12.210968,
+   "lng": -76.8321644,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/804408558",
+   "nombre": "Iglesia católica",
+   "lat": -12.051296,
+   "lng": -77.0155461,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/829476053",
+   "nombre": "Iglesia católica",
+   "lat": -11.9559964,
+   "lng": -76.9729976,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/835364579",
+   "nombre": "Iglesia católica",
+   "lat": -11.967532,
+   "lng": -77.0388995,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/307664868",
+   "nombre": "Iglesia Católica Cristo Redentor",
+   "lat": -12.024235,
+   "lng": -77.0541517,
+   "direccion": "Tiziano Muñoz",
+   "distrito": "San Martín de Porres",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/514048254",
+   "nombre": "Iglesia Católica de Buenavista Baja",
+   "lat": -12.2568426,
+   "lng": -76.8745299,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/413974282",
+   "nombre": "Iglesia de la Buenamuerte",
+   "lat": -12.0472049,
+   "lng": -77.0222426,
+   "direccion": "Jirón Ancash",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/126587274",
+   "nombre": "Iglesia de la Merced",
+   "lat": -12.0484147,
+   "lng": -77.0325208,
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435182348",
+   "nombre": "Iglesia de la Paz Coral 3 San Miguel",
+   "lat": -12.088794,
+   "lng": -77.0865034,
+   "direccion": "Avenida La Paz",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "relation/7528062",
+   "nombre": "Iglesia de Las Nazarenas",
+   "lat": -12.0455243,
+   "lng": -77.0374045,
+   "direccion": "Jirón Huancavelica 515",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/442077624",
+   "nombre": "Iglesia de Nuestra Señora de Copacabana",
+   "lat": -12.0392876,
+   "lng": -77.0274849,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/153125094",
+   "nombre": "Iglesia de Nuestra Señora de Guadalupe",
+   "lat": -12.077585,
+   "lng": -77.0227703,
+   "direccion": "Parque Unión Panamericana",
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/440422465",
+   "nombre": "Iglesia de Nuestra Señora de la Soledad",
+   "lat": -12.0450246,
+   "lng": -77.0276,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/440422455",
+   "nombre": "Iglesia de San Francisco de Asís",
+   "lat": -12.0456566,
+   "lng": -77.0271717,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/413976454",
+   "nombre": "Iglesia de Santa Clara",
+   "lat": -12.0481845,
+   "lng": -77.0199111,
+   "direccion": "Jirón Huanuco",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/442987103",
+   "nombre": "Iglesia de Santa Liberata",
+   "lat": -12.0356002,
+   "lng": -77.0260813,
+   "direccion": "Jirón Atahualpa",
+   "distrito": "Rímac",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/316240453",
+   "nombre": "Iglesia del Perpetuo Socorro",
+   "lat": -12.1517961,
+   "lng": -76.9859839,
+   "direccion": "Alameda Pérez de Tudela",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/291821665",
+   "nombre": "Iglesia del Sagrado Corazón de María",
+   "lat": -12.0868931,
+   "lng": -77.0689924,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4053607026",
+   "nombre": "Iglesia Don Bosco",
+   "lat": -12.0539418,
+   "lng": -77.1377805,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435497247",
+   "nombre": "Iglesia El Nazareño",
+   "lat": -12.0759669,
+   "lng": -77.0635176,
+   "direccion": "Avenida Antonio José de Sucre",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4288754739",
+   "nombre": "Iglesia franciscana",
+   "lat": -11.9657742,
+   "lng": -76.7469271,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/186793693",
+   "nombre": "Iglesia Inmaculada Concepción",
+   "lat": -11.9766296,
+   "lng": -77.0069329,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/389383049",
+   "nombre": "Iglesia La Ermita de Barranco",
+   "lat": -12.1491756,
+   "lng": -77.0231685,
+   "direccion": "Pasaje La Ermita",
+   "distrito": "Barranco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4119503763",
+   "nombre": "Iglesia La Recoleca",
+   "lat": -12.0536014,
+   "lng": -77.0380173,
+   "direccion": "Avenida Garcilazo de la Vega 1131",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/432966650",
+   "nombre": "Iglesia La Reparación",
+   "lat": -12.1200189,
+   "lng": -77.0320904,
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/7246574370",
+   "nombre": "Iglesia Las Brisas de Villa",
+   "lat": -12.220227,
+   "lng": -76.9934506,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/413974281",
+   "nombre": "Iglesia Las Trinitarias",
+   "lat": -12.0477566,
+   "lng": -77.0229854,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/439229024",
+   "nombre": "Iglesia Los Olivos",
+   "lat": -12.0221656,
+   "lng": -77.0921382,
+   "direccion": "Avenida Pacasmayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/5077500225",
+   "nombre": "Iglesia madre de Díos",
+   "lat": -11.9978186,
+   "lng": -77.1181086,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/298240501",
+   "nombre": "Iglesia Matriz de Callao",
+   "lat": -12.0719695,
+   "lng": -77.16385,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436752353",
+   "nombre": "Iglesia Matriz del Callao",
+   "lat": -12.0598066,
+   "lng": -77.1463907,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/245447349",
+   "nombre": "Iglesia Matriz Virgen Milagrosa",
+   "lat": -12.1216785,
+   "lng": -77.0296788,
+   "direccion": "Calle Lima 345",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937320",
+   "nombre": "Iglesia Nuestra Señora Del Carmen",
+   "lat": -12.0909506,
+   "lng": -77.0806867,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5321006163",
+   "nombre": "Iglesia Nuestra Señora Del Carmen - Atocongo",
+   "lat": -12.1995897,
+   "lng": -76.9078953,
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4384778595",
+   "nombre": "Iglesia Nuestra Señora del Perpetuo Socorro y San Alfonso",
+   "lat": -12.0391086,
+   "lng": -77.0310972,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5206212523",
+   "nombre": "Iglesia Nuestra Señora del Rosario",
+   "lat": -12.0421086,
+   "lng": -77.029625,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/513169742",
+   "nombre": "Iglesia Parroquial de Jicamarca",
+   "lat": -11.9803168,
+   "lng": -76.9425504,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/901036396",
+   "nombre": "Iglesia Parroquial Santa María Reparadora",
+   "lat": -11.9857594,
+   "lng": -77.062534,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/436795775",
+   "nombre": "Iglesia Politecnico",
+   "lat": -11.9665473,
+   "lng": -77.0565329,
+   "direccion": "Avenida Tupac Amaru",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435516551",
+   "nombre": "Iglesia Primavera",
+   "lat": -11.9211491,
+   "lng": -77.0540367,
+   "direccion": "Avenida El Retablo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/454536142",
+   "nombre": "iglesia Puente de Lurín",
+   "lat": -12.2465402,
+   "lng": -76.8933875,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/659458373",
+   "nombre": "Iglesia Rosa de Santa María",
+   "lat": -12.2600581,
+   "lng": -76.8882818,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436590169",
+   "nombre": "Iglesia San Francisco de Asís",
+   "lat": -12.1450284,
+   "lng": -77.0199351,
+   "direccion": "Calle Colón 324",
+   "distrito": "Barranco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5449175382",
+   "nombre": "Iglesia San José",
+   "lat": -12.0499916,
+   "lng": -77.0226496,
+   "direccion": "Jirón Junín 899",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/454728333",
+   "nombre": "Iglesia San José",
+   "lat": -12.1184152,
+   "lng": -77.0308114,
+   "direccion": "Calle 2 de Mayo 259",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/456872555",
+   "nombre": "Iglesia San José",
+   "lat": -12.1995021,
+   "lng": -76.9528788,
+   "direccion": "Avenida La Paz",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/446196559",
+   "nombre": "Iglesia San José de Mayorazgo",
+   "lat": -12.0569795,
+   "lng": -76.9405756,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8486374476",
+   "nombre": "Iglesia San Juan Bautista",
+   "lat": -12.1610942,
+   "lng": -76.9647744,
+   "direccion": "Avenida Tomás Guzmán 721",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/375942531",
+   "nombre": "Iglesia San Martín de Porres",
+   "lat": -12.226565,
+   "lng": -76.9314767,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/9604441357",
+   "nombre": "Iglesia San Pablo",
+   "lat": -12.0034931,
+   "lng": -77.0173376,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/182889662",
+   "nombre": "Iglesia Santa María de Mar",
+   "lat": -12.4024689,
+   "lng": -76.7739397,
+   "direccion": "Copacabana",
+   "distrito": "Santa María del Mar",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/198979784",
+   "nombre": "Iglesia Santa Rosa",
+   "lat": -12.1860159,
+   "lng": -76.9256629,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/445402300",
+   "nombre": "Iglesia Santa Rosa",
+   "lat": -12.0346894,
+   "lng": -76.7111392,
+   "distrito": "Santa Rosa de Chontay",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4990723098",
+   "nombre": "Iglesia Santa Rosa de Barranco",
+   "lat": -12.1410077,
+   "lng": -77.0235179,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/516489909",
+   "nombre": "Iglesia Santa Rosa del Mar",
+   "lat": -11.7872534,
+   "lng": -77.1553289,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/451099851",
+   "nombre": "Iglesia Santo Toribio de Mogrovejo",
+   "lat": -11.9360658,
+   "lng": -76.6976189,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/389384011",
+   "nombre": "Iglesia Santísima Cruz",
+   "lat": -12.1488053,
+   "lng": -77.021462,
+   "direccion": "Parque Municipal de Barranco",
+   "distrito": "Barranco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1387116727",
+   "nombre": "Iglesia Señor de la Soledad",
+   "lat": -11.9960896,
+   "lng": -77.0714211,
+   "direccion": "Jirón Aries",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/559090068",
+   "nombre": "Iglesia Señor de los Milagros",
+   "lat": -12.0200444,
+   "lng": -77.0018714,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5020845606",
+   "nombre": "Iglesia Terazas de Villa",
+   "lat": -12.1922241,
+   "lng": -76.9479933,
+   "direccion": "Avenida 1ro de Mayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/7310738416",
+   "nombre": "Iglesia Virgen de Fátima",
+   "lat": -12.185046,
+   "lng": -76.9557698,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7768354144",
+   "nombre": "Iglesia Virgen de Guadalupe",
+   "lat": -11.8930229,
+   "lng": -76.9595625,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/551172293",
+   "nombre": "Iglesia Virgen de la Puerta",
+   "lat": -12.1802102,
+   "lng": -76.8516546,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1182377754",
+   "nombre": "Iglesia Virgen del Carmen",
+   "lat": -12.0140266,
+   "lng": -77.0683107,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/485752993",
+   "nombre": "Iglesia Virgen del Rosario",
+   "lat": -12.1155854,
+   "lng": -76.8699314,
+   "direccion": "Avenida Manchay",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/8607795",
+   "nombre": "Iglesia y Convento San Agustín",
+   "lat": -12.04649,
+   "lng": -77.0337655,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/497792542",
+   "nombre": "Iglesis San Bartolo",
+   "lat": -12.3896799,
+   "lng": -76.7812061,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/398806896",
+   "nombre": "Inmaculada Concepción",
+   "lat": -12.0553229,
+   "lng": -77.1406638,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/597145110",
+   "nombre": "Inmaculado Corazón de María",
+   "lat": -12.0979308,
+   "lng": -76.9481418,
+   "direccion": "Alameda de La Paz",
+   "distrito": "La Molina",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/519683190",
+   "nombre": "Jesu el buen Pastor",
+   "lat": -11.7864972,
+   "lng": -77.1610438,
+   "direccion": "Jirón Las Rosas",
+   "distrito": "Santa Rosa",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/6518069690",
+   "nombre": "Jesus Reparador",
+   "lat": -12.0524451,
+   "lng": -77.0262404,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/444489510",
+   "nombre": "Jesús Resucitado",
+   "lat": -12.0058585,
+   "lng": -77.0485498,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4357801755",
+   "nombre": "La Alemana",
+   "lat": -12.1773384,
+   "lng": -76.9624492,
+   "direccion": "Avenida Miguel Iglesias",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/298417974",
+   "nombre": "La Concepción",
+   "lat": -12.0491425,
+   "lng": -77.0269821,
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/831071756",
+   "nombre": "La Santa Cruz",
+   "lat": -12.0039065,
+   "lng": -76.9959002,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/439190490",
+   "nombre": "Los Dominicos",
+   "lat": -12.0006992,
+   "lng": -77.1021644,
+   "direccion": "Avenida Los Dominicos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4374738258",
+   "nombre": "Los Olivos",
+   "lat": -11.9709735,
+   "lng": -77.0809051,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1284308143",
+   "nombre": "Madre de la Misericordia",
+   "lat": -11.8720567,
+   "lng": -77.0686926,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/1427345997",
+   "nombre": "Medalla Milagrosa",
+   "lat": -12.101985,
+   "lng": -77.05512,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7593885022",
+   "nombre": "Monasterio de Concepcionistas Descalzas de San José",
+   "lat": -12.1225296,
+   "lng": -76.9848206,
+   "direccion": "Avenida Coronel Reynaldo Vivanco 691",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/126587276",
+   "nombre": "Monasterio de Jesús María y José Hermanas Clarisas Capuchinas",
+   "lat": -12.0496186,
+   "lng": -77.0350877,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/440444589",
+   "nombre": "Monasterio de la Santísima Trinidad",
+   "lat": -12.0473521,
+   "lng": -77.0364615,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/495904983",
+   "nombre": "Monasterio de Religiosas Agustinas de la Encarnación",
+   "lat": -12.0762166,
+   "lng": -77.0551359,
+   "direccion": "Avenida Brasil",
+   "distrito": "Pueblo Libre",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4394290835",
+   "nombre": "Monasterio Santisimia Trinidad",
+   "lat": -11.8349061,
+   "lng": -77.180339,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/806032044",
+   "nombre": "Noviciado Agustino de Sudamérica",
+   "lat": -12.2146003,
+   "lng": -77.0030893,
+   "direccion": "Avenida Alameda La Encantada",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4396386089",
+   "nombre": "Nuestra Señora de la Luz",
+   "lat": -11.9421769,
+   "lng": -77.0631766,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1361163431",
+   "nombre": "Nuestra Señora De Lourdes",
+   "lat": -12.09793,
+   "lng": -77.0716309,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/8107535286",
+   "nombre": "Nuestra Señora del Carmen",
+   "lat": -11.942836,
+   "lng": -77.0355057,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/366383585",
+   "nombre": "Nuestra Señora del Monte Carmelo",
+   "lat": -12.1581055,
+   "lng": -76.9884904,
+   "direccion": "Avenida Los Próceres",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4408955453",
+   "nombre": "Nuestra Señora del Pardo",
+   "lat": -12.0516266,
+   "lng": -77.0153089,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435528798",
+   "nombre": "Nuestra Señora del Sagrado Corazón",
+   "lat": -12.0748503,
+   "lng": -77.0502373,
+   "direccion": "Avenida Arnaldo Márquez",
+   "distrito": "Jesús María",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/459253364",
+   "nombre": "Obispado de Chosica",
+   "lat": -12.008662,
+   "lng": -76.8356263,
+   "distrito": "Huaycán",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/453769216",
+   "nombre": "Obispado de Lurín Lima Sur",
+   "lat": -12.1617338,
+   "lng": -76.9812935,
+   "direccion": "Calle Los Maestros",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/507437067",
+   "nombre": "Oratorio Don Bosco",
+   "lat": -12.0382431,
+   "lng": -77.0243475,
+   "direccion": "Jirón Madera 401",
+   "distrito": "Rímac",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7054726960",
+   "nombre": "Paroquia Santísimo Salvador de Pachacámac",
+   "lat": -12.2294607,
+   "lng": -76.8588251,
+   "direccion": "Jirón Comercio 505",
+   "distrito": "Pachacámac",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/444682489",
+   "nombre": "Parroqua Niña María",
+   "lat": -12.1592693,
+   "lng": -76.8533713,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/441863099",
+   "nombre": "Parroqua Santa Catalina de Siena",
+   "lat": -12.1859913,
+   "lng": -77.0028625,
+   "direccion": "Calle Jorge Chavez",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437878304",
+   "nombre": "Parroqui Corpus Christi",
+   "lat": -12.1570333,
+   "lng": -76.9758122,
+   "direccion": "Paseo San Juan 995",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/170078849",
+   "nombre": "Parroquia",
+   "lat": -11.9975505,
+   "lng": -77.0548405,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/442105207",
+   "nombre": "Parroquia",
+   "lat": -12.131871,
+   "lng": -76.9573241,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/445528099",
+   "nombre": "Parroquia",
+   "lat": -12.0700518,
+   "lng": -77.0639877,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/408754076",
+   "nombre": "Parroquia \"Cristo Misionero del Padre\"",
+   "lat": -12.2018561,
+   "lng": -77.0165369,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/442938928",
+   "nombre": "Parroquia \"María Estrella de la Nueva Evangelización\"",
+   "lat": -12.1945928,
+   "lng": -76.9845506,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/372401109",
+   "nombre": "Parroquia \"Sagrada Familia de Nazareth\"",
+   "lat": -12.2364164,
+   "lng": -76.9096625,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/409834399",
+   "nombre": "Parroquia \"Santa Teresita del Niño Jesús\"",
+   "lat": -12.2209251,
+   "lng": -76.9090537,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/653273559",
+   "nombre": "Parroquia Alemana San José",
+   "lat": -12.1182487,
+   "lng": -77.0309716,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/4344940860",
+   "nombre": "Parroquia Carmen de la Legua",
+   "lat": -12.0531093,
+   "lng": -77.0974005,
+   "direccion": "Avenida Oscar Benavides 4501",
+   "distrito": "Bellavista",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/496777754",
+   "nombre": "Parroquia Castrense Cristo Rey",
+   "lat": -12.1597543,
+   "lng": -77.0208325,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/513177379",
+   "nombre": "Parroquia Corazón de Jesus",
+   "lat": -11.9845845,
+   "lng": -76.9486735,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/10090997274",
+   "nombre": "Parroquia Cristo de los Milagros y la Misericordia",
+   "lat": -11.815025,
+   "lng": -77.1260201,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7580326369",
+   "nombre": "Parroquia Cristo de Pachacamilla",
+   "lat": -12.2327952,
+   "lng": -76.9224205,
+   "direccion": "Urbanización Pachacámac II Etapa Manzana X",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8173714913",
+   "nombre": "Parroquia Cristo el Salvador",
+   "lat": -12.1955556,
+   "lng": -76.9479769,
+   "direccion": "Avenida Revolución",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4945684461",
+   "nombre": "Parroquia Cristo Luz del Mundo",
+   "lat": -11.9140518,
+   "lng": -77.0247517,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437693029",
+   "nombre": "Parroquia Cristo Misionero del Padre",
+   "lat": -12.1845104,
+   "lng": -77.008031,
+   "direccion": "Avenida Defensores del Morro",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/449615909",
+   "nombre": "Parroquia Cristo Misionero del Padre",
+   "lat": -12.1909771,
+   "lng": -77.0103551,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5433777780",
+   "nombre": "Parroquia Cristo Resucitado",
+   "lat": -12.2126154,
+   "lng": -76.9402023,
+   "direccion": "Sector 2 Nro. D Int. 24 Gru. Trece",
+   "distrito": "Villa el Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5555041506",
+   "nombre": "Parroquia Cristo Resucitado",
+   "lat": -12.2069063,
+   "lng": -76.9473683,
+   "direccion": "Avenida Micaela Bastidas 1350",
+   "distrito": "Villa el Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6982993895",
+   "nombre": "Parroquia Cristo Resucitado",
+   "lat": -12.2069926,
+   "lng": -76.9412384,
+   "direccion": "Sector 2 Grupo 13 Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/397540712",
+   "nombre": "Parroquia Cristo Rey",
+   "lat": -12.0759056,
+   "lng": -77.0319117,
+   "direccion": "Jirón Carlos Arrieta",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937322",
+   "nombre": "Parroquia Cristo Sacerdote",
+   "lat": -12.080287,
+   "lng": -77.092659,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/525648477",
+   "nombre": "Parroquia Cristo Sacerdote",
+   "lat": -12.2354915,
+   "lng": -76.9035113,
+   "distrito": "Lurín",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13565979201",
+   "nombre": "Parroquia Cristo Salvador",
+   "lat": -12.0225291,
+   "lng": -76.8360804,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1479219813",
+   "nombre": "Parroquia Cristo Salvador",
+   "lat": -12.0199629,
+   "lng": -76.838176,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/458009808",
+   "nombre": "Parroquia Cristo Salvador",
+   "lat": -12.1273311,
+   "lng": -76.9953762,
+   "direccion": "Jirón Enrique León García 362",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/485171993",
+   "nombre": "Parroquia de San Antonio de Carapongo",
+   "lat": -12.0034968,
+   "lng": -76.8777391,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1396473792",
+   "nombre": "Parroquia de San José",
+   "lat": -11.7785371,
+   "lng": -77.1617546,
+   "direccion": "Avenida Pacto Andino",
+   "distrito": "Ancon",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/613969773",
+   "nombre": "Parroquia de San Pedro de Carabayllo",
+   "lat": -11.8544941,
+   "lng": -77.0383692,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/565936685",
+   "nombre": "Parroquia de Santa Ana",
+   "lat": -12.0516286,
+   "lng": -77.0226502,
+   "direccion": "Jirón Huanta 817",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/397795418",
+   "nombre": "Parroquia del Sagrado Corazón de Jesús (PES)",
+   "lat": -12.1005549,
+   "lng": -76.9769333,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/503896493",
+   "nombre": "Parroquia Discípulos De Emaús",
+   "lat": -12.1692797,
+   "lng": -76.9818944,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/622541603",
+   "nombre": "Parroquia Divino Niño de Pampa Chica",
+   "lat": -12.1709242,
+   "lng": -76.8694144,
+   "distrito": "Pachacámac",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/493034588",
+   "nombre": "Parroquia Divino Niño Jesús",
+   "lat": -12.1488064,
+   "lng": -76.9772028,
+   "direccion": "Jirón Ismael Escobar 325",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4379812275",
+   "nombre": "Parroquia EL Buen Pastor",
+   "lat": -11.997715,
+   "lng": -77.0633176,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937324",
+   "nombre": "Parroquia El Divino Maestro",
+   "lat": -12.0724429,
+   "lng": -77.014242,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/446222707",
+   "nombre": "Parroquia El Espíritu Santo",
+   "lat": -12.0901609,
+   "lng": -76.8819936,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/460413648",
+   "nombre": "Parroquia El Niño Jesús",
+   "lat": -12.1502834,
+   "lng": -76.9704687,
+   "direccion": "Calle Nepomuceno Vargas",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/483697760",
+   "nombre": "Parroquia El Resucitado",
+   "lat": -12.029401,
+   "lng": -76.902665,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/445599684",
+   "nombre": "Parroquia El Santísimo Salvador",
+   "lat": -12.2114195,
+   "lng": -76.8765547,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/525919058",
+   "nombre": "Parroquia El Santísimo Salvador",
+   "lat": -12.2432861,
+   "lng": -76.8741262,
+   "direccion": "Jirón Piura",
+   "distrito": "Villa Libertad",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/375891470",
+   "nombre": "Parroquia Espiritu Santo",
+   "lat": -11.9918368,
+   "lng": -77.0500757,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435685721",
+   "nombre": "Parroquia Inmaculada Concepción",
+   "lat": -12.2229279,
+   "lng": -76.9467417,
+   "direccion": "Sector 6 Grupo 7 Mz A",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13841999968",
+   "nombre": "Parroquia Jesús Artesano",
+   "lat": -12.1985343,
+   "lng": -76.9928145,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4220779790",
+   "nombre": "Parroquia Jesús de Nazareth",
+   "lat": -12.0440371,
+   "lng": -77.1038651,
+   "distrito": "Callao",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/12882555485",
+   "nombre": "Parroquia Jesús Misericordioso",
+   "lat": -11.9220584,
+   "lng": -77.0561019,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937328",
+   "nombre": "Parroquia Jesús Nazareno",
+   "lat": -12.0597359,
+   "lng": -77.0721247,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/8140687628",
+   "nombre": "Parroquia Jesús Nazareno",
+   "lat": -12.2391039,
+   "lng": -76.919121,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/615416668",
+   "nombre": "Parroquia Jesús Obrero",
+   "lat": -12.1105221,
+   "lng": -77.0161199,
+   "direccion": "Avenida San Felipe 1050",
+   "distrito": "Surquillo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937330",
+   "nombre": "Parroquia Jesús Redentor",
+   "lat": -12.076644,
+   "lng": -77.104652,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/447613862",
+   "nombre": "Parroquia La Anunciación",
+   "lat": -12.1361404,
+   "lng": -76.9477062,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7852431932",
+   "nombre": "Parroquia La Buena Nueva",
+   "lat": -11.9531351,
+   "lng": -76.9843455,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/882476952",
+   "nombre": "Parroquia La Familia de Nazareth",
+   "lat": -11.8297377,
+   "lng": -77.1235128,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937332",
+   "nombre": "Parroquia La Inmaculada Concepción",
+   "lat": -12.138326,
+   "lng": -77.001106,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/805156823",
+   "nombre": "Parroquia La Resurrección",
+   "lat": -12.0844609,
+   "lng": -76.9286352,
+   "direccion": "Calle El Sauce 234",
+   "distrito": "La Molina",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937333",
+   "nombre": "Parroquia La Sagrada Familia",
+   "lat": -12.0622129,
+   "lng": -77.0087045,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/439785456",
+   "nombre": "Parroquia La Santa Cruz",
+   "lat": -12.0251493,
+   "lng": -76.918838,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937334",
+   "nombre": "Parroquia La Santísima Trinidad",
+   "lat": -12.0505452,
+   "lng": -77.0643284,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/438042351",
+   "nombre": "Parroquia La Trinidad",
+   "lat": -12.1800762,
+   "lng": -76.9482107,
+   "direccion": "Calle José de la Torre Ugarte",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437821580",
+   "nombre": "Parroquia La Trinidad Capilla Samta Rosa",
+   "lat": -12.1675728,
+   "lng": -76.9522107,
+   "direccion": "Jirón Las Magnolias",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/268511256",
+   "nombre": "Parroquia La Virgen Dolorosa",
+   "lat": -12.0323889,
+   "lng": -77.0665752,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937335",
+   "nombre": "Parroquia La Virgen Medianera",
+   "lat": -12.0378981,
+   "lng": -77.0554388,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/436431616",
+   "nombre": "Parroquia La Visitacion de Nuestra Señora",
+   "lat": -12.0465541,
+   "lng": -77.0470864,
+   "direccion": "Avenida Óscar Raimundo Benavides",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/441864734",
+   "nombre": "Parroquia Los Doce Apóstoles",
+   "lat": -12.1756913,
+   "lng": -77.021347,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/3958471795",
+   "nombre": "Parroquia Los Santos Arcángeles",
+   "lat": -11.9777155,
+   "lng": -77.0811731,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5819416510",
+   "nombre": "Parroquia María Auxiliadora",
+   "lat": -12.0677855,
+   "lng": -77.1122648,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937340",
+   "nombre": "Parroquia María Madre de Dios",
+   "lat": -12.087688,
+   "lng": -77.088211,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1351035648",
+   "nombre": "Parroquia María Madre del Redentor",
+   "lat": -12.0453964,
+   "lng": -77.1120909,
+   "direccion": "Calle Tupac Amaru",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937341",
+   "nombre": "Parroquia María, Madre del Pueblo de Dios",
+   "lat": -12.036425,
+   "lng": -77.02153,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1104125055",
+   "nombre": "Parroquia Natividad de María",
+   "lat": -12.0239294,
+   "lng": -77.028308,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/568395570",
+   "nombre": "Parroquia Niño Jesús de Praga",
+   "lat": -12.1680087,
+   "lng": -77.0241309,
+   "direccion": "Jirón Emilio Sandoval 167",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435319550",
+   "nombre": "Parroquia Nuestra Señora de Belén",
+   "lat": -12.109743,
+   "lng": -77.0472998,
+   "direccion": "Avenida General Córdova",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/451647225",
+   "nombre": "Parroquia Nuestra Señora de Cocharcas",
+   "lat": -12.0555665,
+   "lng": -77.018554,
+   "direccion": "Jirón Huanuco Cdra. 9",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435345827",
+   "nombre": "Parroquia Nuestra Señora de Fátima",
+   "lat": -12.1337788,
+   "lng": -77.0278453,
+   "direccion": "Avenida Vasco Nuñez de Balboa",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937345",
+   "nombre": "Parroquia Nuestra Señora de Fátima- Unidad Vecinal",
+   "lat": -12.051985,
+   "lng": -77.080231,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/439031081",
+   "nombre": "Parroquia Nuestra Señora de Gracia",
+   "lat": -12.0988423,
+   "lng": -77.0116385,
+   "direccion": "Avenida Guardia Civil 787",
+   "distrito": "San Borja",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937348",
+   "nombre": "Parroquia Nuestra Señora de Guadalupe",
+   "lat": -12.041529,
+   "lng": -76.987663,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937357",
+   "nombre": "Parroquia Nuestra Señora de Guía",
+   "lat": -12.028424,
+   "lng": -77.040497,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937370",
+   "nombre": "Parroquia Nuestra Señora de la Alegria",
+   "lat": -12.109162,
+   "lng": -77.003998,
+   "direccion": "Calle José Álvarez Calderón",
+   "distrito": "San Borja",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/435189311",
+   "nombre": "Parroquia Nuestra Señora de la Asunción",
+   "lat": -12.1172409,
+   "lng": -77.0423122,
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937384",
+   "nombre": "Parroquia Nuestra Señora de la Caridad",
+   "lat": -12.078582,
+   "lng": -77.070999,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/1302294151",
+   "nombre": "Parroquia Nuestra Señora de la Esperanza",
+   "lat": -12.0746877,
+   "lng": -76.9847199,
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6815702769",
+   "nombre": "Parroquia Nuestra Señora de la Esperanza",
+   "lat": -12.1743772,
+   "lng": -76.9328857,
+   "direccion": "Calle Mateo Pumacahua s/n. alt. Paradero 4 Nueva Esperanza Villa María del Triunfo (Lima 35)",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937389",
+   "nombre": "Parroquia Nuestra Señora de la Evangelización",
+   "lat": -12.1152891,
+   "lng": -77.0008393,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937393",
+   "nombre": "Parroquia Nuestra Señora de la Merced",
+   "lat": -12.035774,
+   "lng": -77.072952,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/8140668677",
+   "nombre": "Parroquia Nuestra Señora de la Paz",
+   "lat": -12.2343174,
+   "lng": -76.9376425,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436779145",
+   "nombre": "Parroquia Nuestra Señora de la Paz",
+   "lat": -11.9535404,
+   "lng": -77.052285,
+   "direccion": "Avenida Túpac Amaru 1223",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3063482676",
+   "nombre": "Parroquia Nuestra Señora de la Piedad",
+   "lat": -12.0779323,
+   "lng": -76.9922935,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/331621474",
+   "nombre": "Parroquia Nuestra Señora de la Reconciliación.",
+   "lat": -12.0780184,
+   "lng": -76.9680303,
+   "direccion": "Los Pinos",
+   "distrito": "La Molina",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/4821785228",
+   "nombre": "Parroquia Nuestra Señora de las Mercedes",
+   "lat": -11.8555397,
+   "lng": -77.1245516,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/6173401",
+   "nombre": "Parroquia Nuestra Señora de las Mercedes",
+   "lat": -12.047811,
+   "lng": -77.0177422,
+   "direccion": "Jirón Maynas",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/401027225",
+   "nombre": "Parroquia Nuestra Señora de las Victorias",
+   "lat": -12.0638033,
+   "lng": -77.0312588,
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/183914428",
+   "nombre": "Parroquia Nuestra Señora de los Desamparados y San José",
+   "lat": -12.0557046,
+   "lng": -77.0515286,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937414",
+   "nombre": "Parroquia Nuestra Señora de los Ángeles",
+   "lat": -12.0337542,
+   "lng": -77.0248164,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/429003664",
+   "nombre": "Parroquia Nuestra Señora de Lourdes",
+   "lat": -12.3377747,
+   "lng": -76.8266635,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437996055",
+   "nombre": "Parroquia Nuestra Señora de Lourdes",
+   "lat": -12.1922799,
+   "lng": -76.9803041,
+   "direccion": "Avenida Túpac Amaru",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435832497",
+   "nombre": "Parroquia Nuestra Señora de Montserrat",
+   "lat": -12.0413487,
+   "lng": -77.039427,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937415",
+   "nombre": "Parroquia Nuestra Señora del Buen Consejo",
+   "lat": -12.0675496,
+   "lng": -77.007973,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937417",
+   "nombre": "Parroquia Nuestra Señora del Camino",
+   "lat": -12.0638954,
+   "lng": -76.9978843,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437794726",
+   "nombre": "Parroquia Nuestra Señora del Carmen",
+   "lat": -12.2062216,
+   "lng": -76.9063985,
+   "direccion": "Avenida Lima",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937422",
+   "nombre": "Parroquia Nuestra Señora del Carmen - Miraflores",
+   "lat": -12.1280424,
+   "lng": -77.0222773,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/468776929",
+   "nombre": "Parroquia Nuestra Señora del Mar",
+   "lat": -11.8848472,
+   "lng": -77.1281019,
+   "direccion": "Avenida Mirachi",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937430",
+   "nombre": "Parroquia Nuestra Señora del Perpetuo Socorro",
+   "lat": -12.036713,
+   "lng": -77.050491,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437545358",
+   "nombre": "Parroquia nuestra Señora del Perpetuo Socorro",
+   "lat": -12.0308845,
+   "lng": -77.0965418,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7523367355",
+   "nombre": "Parroquia Nuestra Señora del Rosario",
+   "lat": -12.1906746,
+   "lng": -76.9416704,
+   "direccion": "Avenida Príncipe de Asturias",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/511783442",
+   "nombre": "Parroquia Nuestra Señora del Rosario",
+   "lat": -12.0424387,
+   "lng": -77.1199078,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/638792997",
+   "nombre": "Parroquia Sagrada Familia",
+   "lat": -11.7364235,
+   "lng": -77.1409204,
+   "direccion": "Avenida 11 de enero, mz 123 Lote 01",
+   "distrito": "Ancón",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/383851814",
+   "nombre": "Parroquia Sagrado Corazon de Jesús - Barranco",
+   "lat": -12.1388594,
+   "lng": -77.0218202,
+   "direccion": "Avenida Almirante Miguel Grau",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/291831411",
+   "nombre": "Parroquia Sagrado Corazón de Jesús",
+   "lat": -12.0928625,
+   "lng": -77.0735881,
+   "direccion": "Jirón Grau 525",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/447008363",
+   "nombre": "Parroquia Sagrado Corazón de Jesús",
+   "lat": -12.1427455,
+   "lng": -76.9527411,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937452",
+   "nombre": "Parroquia Sagrado Corazón de Jesús - Los Huérfanos",
+   "lat": -12.0526778,
+   "lng": -77.0315485,
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/459478305",
+   "nombre": "Parroquia San Alfonso",
+   "lat": -12.0501693,
+   "lng": -76.9636934,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436301902",
+   "nombre": "Parroquia San Antonio de Padua",
+   "lat": -12.0827815,
+   "lng": -77.052528,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937460",
+   "nombre": "Parroquia San Antonio María Claret",
+   "lat": -12.067545,
+   "lng": -77.018364,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/498896120",
+   "nombre": "Parroquia San Conrado",
+   "lat": -11.9349118,
+   "lng": -77.0776082,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/699685728",
+   "nombre": "Parroquia San Damian de Molokai",
+   "lat": -11.9318474,
+   "lng": -77.0961895,
+   "direccion": "Jirón Los Conquistadores",
+   "distrito": "Puente Piedra",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/419790521",
+   "nombre": "Parroquia San Danial Comboni",
+   "lat": -12.1524077,
+   "lng": -76.9794443,
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2697126054",
+   "nombre": "Parroquia San Diego",
+   "lat": -11.9493782,
+   "lng": -77.0923144,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937469",
+   "nombre": "Parroquia San Esteban",
+   "lat": -12.021241,
+   "lng": -77.031609,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/424825511",
+   "nombre": "Parroquia San Esteban",
+   "lat": -12.1667523,
+   "lng": -76.9730536,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937474",
+   "nombre": "Parroquia San Felipe Apóstol",
+   "lat": -12.0921676,
+   "lng": -77.0485617,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/196922882",
+   "nombre": "Parroquia San Fernando",
+   "lat": -12.0515356,
+   "lng": -77.1112347,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/6894463715",
+   "nombre": "Parroquia San Francisco de Asis",
+   "lat": -12.1986125,
+   "lng": -76.9278607,
+   "direccion": "Avenida Santa Rosa 311",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/497967362",
+   "nombre": "Parroquia San Francisco de Asis",
+   "lat": -12.1878331,
+   "lng": -76.9914363,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7523266050",
+   "nombre": "Parroquia San Francisco de Asís",
+   "lat": -12.0285945,
+   "lng": -76.9323625,
+   "direccion": "Avenida Los Angeles",
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437463815",
+   "nombre": "Parroquia San Francisco de Asís",
+   "lat": -12.1515628,
+   "lng": -76.9630615,
+   "direccion": "San Francisco de la Cruz",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/439196561",
+   "nombre": "Parroquia San Francisco de Borja",
+   "lat": -12.0905225,
+   "lng": -76.9981213,
+   "direccion": "Avenida de las Artes Norte 860",
+   "distrito": "san Borja",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/617088964",
+   "nombre": "Parroquia San Francisco de Paula",
+   "lat": -12.0359926,
+   "lng": -77.0355251,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/442674232",
+   "nombre": "Parroquia San Francisco Javier",
+   "lat": -12.0145739,
+   "lng": -77.1021274,
+   "distrito": "Callao",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937479",
+   "nombre": "Parroquia San Francisco Solano",
+   "lat": -12.030396,
+   "lng": -77.029961,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/437460196",
+   "nombre": "Parroquia San Gabriel",
+   "lat": -12.1559275,
+   "lng": -76.9585334,
+   "direccion": "Jirón San Antonio",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/402042867",
+   "nombre": "Parroquia San Gregorio de Mangomarca",
+   "lat": -12.0107287,
+   "lng": -76.9813854,
+   "direccion": "Las Lomas",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5141942622",
+   "nombre": "Parroquia San Josemaría Escrivá de Balaguer",
+   "lat": -12.0856614,
+   "lng": -76.9975651,
+   "direccion": "Avenida De las Bellas Artes 300",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435516302",
+   "nombre": "Parroquia San José",
+   "lat": -12.0750796,
+   "lng": -77.0483802,
+   "direccion": "Avenida República Dominicana 480",
+   "distrito": "Jesús María",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/446028154",
+   "nombre": "Parroquia San José",
+   "lat": -12.1129555,
+   "lng": -76.8169445,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/486428763",
+   "nombre": "Parroquia San José",
+   "lat": -12.365663,
+   "lng": -76.795365,
+   "distrito": "Punta Negra",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/572938527",
+   "nombre": "Parroquia San José",
+   "lat": -12.0352148,
+   "lng": -77.0133746,
+   "direccion": "Jirón San José Celendon 300",
+   "distrito": "San Juan de Lurigancho",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/447008375",
+   "nombre": "Parroquia San José de Nazareth",
+   "lat": -12.149031,
+   "lng": -76.9448496,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937495",
+   "nombre": "Parroquia San José Obrero",
+   "lat": -12.143403,
+   "lng": -77.016502,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5451268438",
+   "nombre": "Parroquia San José Obrero",
+   "lat": -12.2080255,
+   "lng": -76.9130109,
+   "direccion": "Calle Arica 800",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937498",
+   "nombre": "Parroquia San Juan Apóstol",
+   "lat": -12.070037,
+   "lng": -77.0716297,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7018257473",
+   "nombre": "Parroquia San Juan Bautista",
+   "lat": -12.0268987,
+   "lng": -77.0046141,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937508",
+   "nombre": "Parroquia San Juan Bautista de Amancaes",
+   "lat": -12.0156304,
+   "lng": -77.0286199,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7898712052",
+   "nombre": "Parroquia San Juan Bosco",
+   "lat": -11.9217261,
+   "lng": -76.6756592,
+   "direccion": "Avenida Lima Norte 574",
+   "distrito": "Santa Eulalia",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/441935755",
+   "nombre": "Parroquia San Juan de La Cruz",
+   "lat": -12.2006933,
+   "lng": -77.012012,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/689497287",
+   "nombre": "Parroquia San Juan de la Cruz",
+   "lat": -12.2092413,
+   "lng": -77.016345,
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4403379782",
+   "nombre": "Parroquia San Juan Macías",
+   "lat": -12.012108,
+   "lng": -77.0975888,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/831982235",
+   "nombre": "Parroquia San Juan Macías",
+   "lat": -12.0784245,
+   "lng": -77.0053741,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/436312648",
+   "nombre": "Parroquia San Juan María Vianney",
+   "lat": -12.0927831,
+   "lng": -77.061077,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/954094056",
+   "nombre": "Parroquia San Juan Pablo II",
+   "lat": -11.8264663,
+   "lng": -77.1011187,
+   "direccion": "Calle Marcos Espinoza",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937521",
+   "nombre": "Parroquia San Judas Tadeo",
+   "lat": -12.080292,
+   "lng": -77.079613,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937526",
+   "nombre": "Parroquia San Lazaro",
+   "lat": -12.039614,
+   "lng": -77.029266,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937530",
+   "nombre": "Parroquia San Leopoldo",
+   "lat": -12.095488,
+   "lng": -76.981201,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937534",
+   "nombre": "Parroquia San Lorenzo",
+   "lat": -12.041535,
+   "lng": -77.025639,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937538",
+   "nombre": "Parroquia San Lucas",
+   "lat": -12.070404,
+   "lng": -77.057854,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/591442114",
+   "nombre": "Parroquia San Luis Maria de Monfort",
+   "lat": -11.9879305,
+   "lng": -76.8201003,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/435348092",
+   "nombre": "Parroquia San Marcelo",
+   "lat": -12.047042,
+   "lng": -77.0369005,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3391642615",
+   "nombre": "Parroquia San Marcos",
+   "lat": -12.0057027,
+   "lng": -77.0017586,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/5436355588",
+   "nombre": "Parroquia San Martín de la Caridad",
+   "lat": -12.2152561,
+   "lng": -76.933681,
+   "direccion": "Sector 3 Grupo 17",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/372660497",
+   "nombre": "Parroquia San Martín de Porres",
+   "lat": -12.194135,
+   "lng": -76.9591241,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436813737",
+   "nombre": "Parroquia San Martín de Porres",
+   "lat": -11.839859,
+   "lng": -77.1127354,
+   "direccion": "Avenida Nestor Gambetta",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/591381644",
+   "nombre": "Parroquia San Martín de Porres",
+   "lat": -11.9816068,
+   "lng": -77.1231499,
+   "distrito": "Callao",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937547",
+   "nombre": "Parroquia San Miguel Arcángel",
+   "lat": -12.070241,
+   "lng": -77.093498,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7746934962",
+   "nombre": "Parroquia San Nicolás",
+   "lat": -12.1744377,
+   "lng": -77.0112909,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4447100090",
+   "nombre": "Parroquia San Nicolás de Tolentino",
+   "lat": -11.9400375,
+   "lng": -76.7120238,
+   "direccion": "Calle 8 de Setiembre",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937551",
+   "nombre": "Parroquia San Norberto",
+   "lat": -12.0853647,
+   "lng": -77.018334,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/604739077",
+   "nombre": "Parroquia San Pablo Apóstol",
+   "lat": -12.0098379,
+   "lng": -77.0332656,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/9438712657",
+   "nombre": "Parroquia San Pablo de la Cruz",
+   "lat": -11.8929147,
+   "lng": -77.1272239,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/160698080",
+   "nombre": "Parroquia San Pablo de la Cruz",
+   "lat": -12.0713947,
+   "lng": -76.9437441,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937565",
+   "nombre": "Parroquia San Pablo y Nuestra Señora del Carmen",
+   "lat": -12.0608756,
+   "lng": -77.0569097,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/430460112",
+   "nombre": "Parroquia San Pedro",
+   "lat": -11.7742583,
+   "lng": -77.1747205,
+   "direccion": "Calle Abtao",
+   "distrito": "Ancón",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7791874666",
+   "nombre": "Parroquia San Pedro de Chorrillos",
+   "lat": -12.1687006,
+   "lng": -77.0297492,
+   "direccion": "Avenida Mariscal Ramón Castilla 296",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2025434111",
+   "nombre": "Parroquia San Pedro Nolasco",
+   "lat": -11.872497,
+   "lng": -77.1201278,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1316291871",
+   "nombre": "Parroquia San Pío X",
+   "lat": -12.0522914,
+   "lng": -77.0678378,
+   "direccion": "Calle Elvira García y García 2120",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937582",
+   "nombre": "Parroquia San Ricardo",
+   "lat": -12.071222,
+   "lng": -77.021835,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/382397867",
+   "nombre": "Parroquia San Roque",
+   "lat": -12.1485357,
+   "lng": -76.9928958,
+   "direccion": "Calle Prospero Rosado 102",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/397558426",
+   "nombre": "Parroquia San Vicente de Paul",
+   "lat": -12.1129911,
+   "lng": -77.0246011,
+   "direccion": "Avenida Angamos Este",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/409353338",
+   "nombre": "Parroquia Santa Ana",
+   "lat": -12.0409451,
+   "lng": -77.1248008,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/427317292",
+   "nombre": "Parroquia Santa Ana",
+   "lat": -12.2220988,
+   "lng": -76.9183419,
+   "direccion": "Mz J lote 01 Sector Ii AA.HH Nuevo Progreso - Villa Marìa del Triunfo - Lima perú",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/483127647",
+   "nombre": "Parroquia Santa Ana",
+   "lat": -12.2113593,
+   "lng": -76.9210105,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4347851994",
+   "nombre": "Parroquia Santa Catalina",
+   "lat": -12.0552828,
+   "lng": -77.0263963,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7672090610",
+   "nombre": "Parroquia Santa Catalina Laboure",
+   "lat": -12.1633121,
+   "lng": -76.9441357,
+   "direccion": "Avenida El Triunfo 820",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2281655376",
+   "nombre": "Parroquia Santa Cruz",
+   "lat": -12.0324292,
+   "lng": -77.0864099,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7084522435",
+   "nombre": "Parroquia Santa Isabel",
+   "lat": -12.2011691,
+   "lng": -76.9787827,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437873286",
+   "nombre": "Parroquia Santa Isabel de Setón",
+   "lat": -12.1709527,
+   "lng": -76.9653474,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937600",
+   "nombre": "Parroquia Santa Magdalena Sofía Barat",
+   "lat": -12.0611367,
+   "lng": -77.003184,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/4369528009",
+   "nombre": "Parroquia Santa María de Guadalupe",
+   "lat": -12.114199,
+   "lng": -76.9362498,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/593180978",
+   "nombre": "Parroquia Santa María de Jesús",
+   "lat": -11.9039209,
+   "lng": -77.0378965,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/995144349",
+   "nombre": "Parroquia Santa María de la Reconciliación",
+   "lat": -11.979898,
+   "lng": -77.0678942,
+   "direccion": "Yungar",
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937617",
+   "nombre": "Parroquia Santa María de los Ángeles",
+   "lat": -12.1714899,
+   "lng": -77.0061664,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937605",
+   "nombre": "Parroquia Santa María Madre de la Iglesia",
+   "lat": -12.088354,
+   "lng": -77.056,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/442129163",
+   "nombre": "Parroquia Santa María Madre de la Paz",
+   "lat": -12.1369988,
+   "lng": -76.9784099,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/2023937613",
+   "nombre": "Parroquia Santa María Magdalena",
+   "lat": -12.078152,
+   "lng": -77.063301,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/405570134",
+   "nombre": "Parroquia Santa María Reina",
+   "lat": -12.1094339,
+   "lng": -77.0366288,
+   "direccion": "Avenida Los Conquistadores 1293",
+   "distrito": "San Isidro",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/446934489",
+   "nombre": "Parroquia Santa María Reyna",
+   "lat": -12.1475868,
+   "lng": -76.9340737,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/692124472",
+   "nombre": "Parroquia Santa María Vigen",
+   "lat": -12.1596894,
+   "lng": -76.9546642,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937622",
+   "nombre": "Parroquia Santa Mónica",
+   "lat": -12.100424,
+   "lng": -77.023842,
+   "direccion": "Calle Los Cisnes 321",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/436597631",
+   "nombre": "Parroquia Santa Rita de Casia",
+   "lat": -12.1281908,
+   "lng": -77.0114368,
+   "direccion": "Calle Padre Amelio Plasencia 135",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7564548040",
+   "nombre": "Parroquia Santa Rosa",
+   "lat": -12.1912048,
+   "lng": -76.9327556,
+   "direccion": "Avenida 27 de Diciembre",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8014000481",
+   "nombre": "Parroquia Santa Rosa",
+   "lat": -12.2412116,
+   "lng": -76.9327902,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436284936",
+   "nombre": "Parroquia Santa Rosa de Lima",
+   "lat": -12.0865479,
+   "lng": -77.0389875,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/454376539",
+   "nombre": "Parroquia Santa Rosa de Lima",
+   "lat": -12.2498427,
+   "lng": -76.8955601,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/442870979",
+   "nombre": "Parroquia Santa Teresita del Niño Jesús",
+   "lat": -12.0688218,
+   "lng": -77.0342467,
+   "direccion": "José Díaz 333",
+   "distrito": "Jesús María",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/561049804",
+   "nombre": "Parroquia Santiago Apóstol",
+   "lat": -12.1458965,
+   "lng": -77.0042165,
+   "direccion": "Jirón Batalla de Ayacucho 258",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937642",
+   "nombre": "Parroquia Santiago Apóstol - Cercado",
+   "lat": -12.0498,
+   "lng": -77.011902,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/298385725",
+   "nombre": "Parroquia Santo Toribio - La Inmaculada",
+   "lat": -12.0477212,
+   "lng": -77.0399453,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/4403280231",
+   "nombre": "Parroquia Santo Toribio de Mogrovejo",
+   "lat": -12.0017378,
+   "lng": -77.1092047,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/416297424",
+   "nombre": "Parroquia Santísimo Nombre de Jesús",
+   "lat": -12.1080811,
+   "lng": -76.9828782,
+   "direccion": "Avenida Esmeralda",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/474404846",
+   "nombre": "Parroquia Señor de los Milagros",
+   "lat": -11.9419495,
+   "lng": -77.0442192,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/499567023",
+   "nombre": "Parroquia Señor de los Milagros",
+   "lat": -12.23547,
+   "lng": -76.9144385,
+   "direccion": "Calle 27",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/870450181",
+   "nombre": "Parroquia Señor de los Milagros",
+   "lat": -11.9456471,
+   "lng": -77.0305058,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/659755945",
+   "nombre": "Parroquia Virgen de Fátima",
+   "lat": -12.170622,
+   "lng": -77.0214613,
+   "direccion": "Jirón Justo Pastor Davila",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7241309144",
+   "nombre": "Parroquia Virgen de Guadalupe",
+   "lat": -12.1938297,
+   "lng": -76.9632856,
+   "direccion": "Calle 3",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/671596198",
+   "nombre": "Parroquia Virgen de la Familia",
+   "lat": -12.1769368,
+   "lng": -76.998456,
+   "direccion": "Avenida El Sol",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/471312338",
+   "nombre": "Parroquia Virgen de La Merced",
+   "lat": -12.0768903,
+   "lng": -77.0138695,
+   "direccion": "Ramiro Prialé",
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/588817553",
+   "nombre": "Parroquia Virgen de La Salud",
+   "lat": -12.0941757,
+   "lng": -77.0294048,
+   "direccion": "Calle Las Camelias 350",
+   "distrito": "San Isidro",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6820914757",
+   "nombre": "Parroquia Virgen de Lourdes",
+   "lat": -12.1670884,
+   "lng": -76.9185753,
+   "direccion": "Jr. Moche s/n Paradero 11 ½, P.J. Virgen de Lourdes Villa María del Triunfo",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/2023937655",
+   "nombre": "Parroquia Virgen del Buen Remedio y San Pablo Apóstol",
+   "lat": -12.064366,
+   "lng": -77.075859,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/569134222",
+   "nombre": "Parroquia Virgen del Carmen y San Pedro",
+   "lat": -12.2009029,
+   "lng": -76.9430808,
+   "direccion": "Sector 2 Grupo 6",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/401491750",
+   "nombre": "Parroquia Virgen del Pilar",
+   "lat": -12.0961006,
+   "lng": -77.0358012,
+   "direccion": "Avenida Victor Andrés Belaunde 160",
+   "distrito": "San Isidro",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/7903521896",
+   "nombre": "Parroquia Virgen María Auxiliadora",
+   "lat": -12.2237231,
+   "lng": -76.8472671,
+   "direccion": "Calle Huáscar",
+   "distrito": "Santa Anita",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/554932408",
+   "nombre": "Parroquial San Martín de Porres",
+   "lat": -12.1386252,
+   "lng": -76.9638536,
+   "direccion": "Avenida Central",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/440225237",
+   "nombre": "Praderas de Pariachi",
+   "lat": -12.0008669,
+   "lng": -76.8377065,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/437789636",
+   "nombre": "Pueblo de Belén",
+   "lat": -12.2368661,
+   "lng": -76.9070085,
+   "direccion": "Avenida De los Incas",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4439807076",
+   "nombre": "Religiosas franciscana de Inmaculada Concepción",
+   "lat": -12.0911589,
+   "lng": -77.0748326,
+   "direccion": "Enrique Echenique",
+   "distrito": "Magdalena del Mar",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/551358537",
+   "nombre": "Sagrada Familia",
+   "lat": -12.138916,
+   "lng": -76.9574273,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4990723100",
+   "nombre": "Sagrado Corazón de Jesús",
+   "lat": -12.1389148,
+   "lng": -77.0221146,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/439818607",
+   "nombre": "Sagrado Corazón de Jesús",
+   "lat": -12.0037997,
+   "lng": -77.0527404,
+   "direccion": "Los Eucaliptos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3840334372",
+   "nombre": "Sagrados corazones de Jesús y María",
+   "lat": -12.0435211,
+   "lng": -77.0957739,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11241760519",
+   "nombre": "San Ignacio de Loyola",
+   "lat": -11.9652311,
+   "lng": -76.976114,
+   "direccion": "Avenida Héroes del Cenepa Oeste",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435554447",
+   "nombre": "San Juan Pablo II",
+   "lat": -11.8903757,
+   "lng": -77.0272559,
+   "direccion": "Avenida Merino Reyna Oeste",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1224822224",
+   "nombre": "San Martin",
+   "lat": -12.0432944,
+   "lng": -76.9713086,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1223356243",
+   "nombre": "San Martín de Porres",
+   "lat": -12.0558213,
+   "lng": -76.9679991,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/446567345",
+   "nombre": "San Martín y San Lorenzo",
+   "lat": -12.0503376,
+   "lng": -77.103607,
+   "direccion": "Calle Josefina",
+   "distrito": "Bellavista",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/512089800",
+   "nombre": "San Pedro",
+   "lat": -12.2012074,
+   "lng": -77.0296765,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/864888275",
+   "nombre": "San Pedro de Carabayllo",
+   "lat": -11.8665928,
+   "lng": -77.0779842,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/690018003",
+   "nombre": "San Rafael",
+   "lat": -12.0498694,
+   "lng": -77.0613497,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/1639104065",
+   "nombre": "Sanctuario de Nuestra Señora del Sagrado Corazon",
+   "lat": -12.0847193,
+   "lng": -77.0443942,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/357248653",
+   "nombre": "Santa María de la Providencia",
+   "lat": -11.9883821,
+   "lng": -77.072482,
+   "direccion": "Avenida Las Palmeras",
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4393840583",
+   "nombre": "Santa María de la Reconciliación",
+   "lat": -11.971354,
+   "lng": -77.0697388,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/3949407005",
+   "nombre": "Santa Rosa",
+   "lat": -11.970063,
+   "lng": -77.0819179,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/5207342799",
+   "nombre": "Santa Rosa",
+   "lat": -12.0249765,
+   "lng": -76.9229,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/830931495",
+   "nombre": "Santa Rosa",
+   "lat": -11.9345195,
+   "lng": -76.9691982,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1222280640",
+   "nombre": "Santa Rosa de Lima",
+   "lat": -12.0524088,
+   "lng": -76.9648545,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/276758320",
+   "nombre": "Santa Ángela Merici",
+   "lat": -12.0388516,
+   "lng": -77.0903859,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/1459528357",
+   "nombre": "Santo Cristo",
+   "lat": -12.0449881,
+   "lng": -77.0122172,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/561370562",
+   "nombre": "Santuario Arquidiocesano Señor de la Divina Misericordia",
+   "lat": -12.1325161,
+   "lng": -76.9824866,
+   "direccion": "Avenida Caminos del Inca",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6818809629",
+   "nombre": "Santuario del Divino Niño",
+   "lat": -12.0836838,
+   "lng": -76.8963702,
+   "direccion": "Esquina Calles Bahamas y Naplo, El Sol De La Molina",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8262125224",
+   "nombre": "Santuario Dioscesano San Juan Pablo II",
+   "lat": -12.2033509,
+   "lng": -76.9313737,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/453769237",
+   "nombre": "Santuario Madre del Amor Hermoso",
+   "lat": -12.1627778,
+   "lng": -76.9820706,
+   "direccion": "Calle Los Alamos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/1159055387",
+   "nombre": "Santuario Schoenstatt",
+   "lat": -12.0743657,
+   "lng": -76.8920291,
+   "direccion": "Avenida Del Parque 896",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "way/715263892",
+   "nombre": "Santuario Señor de Huanca",
+   "lat": -12.0839222,
+   "lng": -76.8690955,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/710706459",
+   "nombre": "Santuario Virgen del Morro Solar",
+   "lat": -12.1678787,
+   "lng": -77.0349187,
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5046984818",
+   "nombre": "Santuario Vírgen de Lourdes",
+   "lat": -12.0548631,
+   "lng": -77.0300584,
+   "direccion": "Avenida Abancay",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/973348606",
+   "nombre": "Santísima Trinidad",
+   "lat": -11.9482006,
+   "lng": -76.9807002,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/5319433650",
+   "nombre": "SARITA COLONIA",
+   "lat": -12.1391896,
+   "lng": -76.9600512,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4115446247",
+   "nombre": "Señor Cautivo",
+   "lat": -12.0229196,
+   "lng": -77.1347055,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/7399941442",
+   "nombre": "Señor de Gualamita",
+   "lat": -12.0200972,
+   "lng": -77.1400663,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435348859",
+   "nombre": "Señor de los Milagros",
+   "lat": -12.3349416,
+   "lng": -76.8228644,
+   "direccion": "Avenida Colonel Juan Valer Sandoval",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4080180294",
+   "nombre": "Señora de las Naciones",
+   "lat": -11.9842701,
+   "lng": -77.0935592,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/10585997319",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0149357,
+   "lng": -77.0115795,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/11225294965",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9564622,
+   "lng": -76.9746347,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/11265805096",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9431277,
+   "lng": -76.7124056,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/11445051932",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0506779,
+   "lng": -76.9648627,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/13588602655",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0695296,
+   "lng": -77.1095196,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/2494627510",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0220001,
+   "lng": -77.1033903,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4222414702",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.061584,
+   "lng": -77.1132681,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4343662167",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9222353,
+   "lng": -77.0418413,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4397682616",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0395345,
+   "lng": -77.0336844,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4400009118",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0512098,
+   "lng": -77.0273033,
+   "direccion": "Jirón Ayacucho",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4412523198",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0565738,
+   "lng": -77.0069328,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4435428362",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0144401,
+   "lng": -77.0928227,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4438265127",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.054314,
+   "lng": -77.109839,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4438429864",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0547084,
+   "lng": -77.1304318,
+   "direccion": "Calle Lambayeque",
+   "distrito": "Santa Marina",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4442989659",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0792666,
+   "lng": -77.0202522,
+   "direccion": "Federico Barreto",
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/4924496421",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.857751,
+   "lng": -77.0852451,
+   "direccion": "Avenida Buenos Aires",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/6129747843",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8799593,
+   "lng": -77.0147229,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/7802427261",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.08097,
+   "lng": -76.9908032,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/872037409",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0527138,
+   "lng": -77.095192,
+   "direccion": "Avenida Óscar Raimundo Benavides 4689",
+   "distrito": "Callao",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/9348070008",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0228017,
+   "lng": -76.8228095,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/9348071291",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0223719,
+   "lng": -76.8248215,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/9612201516",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9895976,
+   "lng": -77.0114221,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/9779627073",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0376204,
+   "lng": -77.0793071,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1087106908",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0487219,
+   "lng": -76.9665619,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1098926326",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9426158,
+   "lng": -76.9939436,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1101336373",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9404775,
+   "lng": -76.9856064,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1101400780",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.004787,
+   "lng": -77.0493684,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1115140322",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.4829723,
+   "lng": -76.7968199,
+   "direccion": "Avenida Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1125049037",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0479077,
+   "lng": -76.9644288,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1218625436",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1450839,
+   "lng": -76.9892434,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/1534086630",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.2626111,
+   "lng": -76.8852394,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/307650311",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0185494,
+   "lng": -76.884145,
+   "direccion": "Santa Rosa",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/401494459",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0824677,
+   "lng": -77.0319703,
+   "direccion": "Avenida Militar",
+   "distrito": "Lince",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/434687233",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0746826,
+   "lng": -77.0486396,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/434795519",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1270711,
+   "lng": -77.0151769,
+   "direccion": "Avenida Alfredo Benavides",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435385728",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0627387,
+   "lng": -77.0431374,
+   "direccion": "Avenida Brasil",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435490534",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8818139,
+   "lng": -77.0714808,
+   "direccion": "Avenida Rosa Luz",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435505104",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8709232,
+   "lng": -77.0760625,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435508317",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8772633,
+   "lng": -77.0750748,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435516619",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.062166,
+   "lng": -77.0379934,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435849658",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.899802,
+   "lng": -77.0331318,
+   "direccion": "Avenida San Martín",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/435863319",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8851484,
+   "lng": -77.0395161,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436407294",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0656469,
+   "lng": -77.1485827,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436436657",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.062346,
+   "lng": -77.1431334,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436475290",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0813768,
+   "lng": -77.0293485,
+   "direccion": "Jirón José Gálvez",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436569968",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0749116,
+   "lng": -77.0349573,
+   "direccion": "Avenida Petit Thouars",
+   "distrito": "Santa Beatriz",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436783292",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9558545,
+   "lng": -77.0527367,
+   "direccion": "Avenida Tupac Amaru",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436799622",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1224055,
+   "lng": -77.0212594,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/436951936",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.2988323,
+   "lng": -76.8477678,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/437891151",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9924991,
+   "lng": -77.00561,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/438875343",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0878538,
+   "lng": -76.9496911,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/440075070",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9477957,
+   "lng": -76.7166783,
+   "direccion": "Avenida Las Flores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/441073330",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.055254,
+   "lng": -77.043111,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/441998031",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1408561,
+   "lng": -76.9412277,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/445719133",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9665149,
+   "lng": -77.0810693,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/450003150",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1734724,
+   "lng": -76.9615183,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/450688746",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9579953,
+   "lng": -77.0399364,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/451631273",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1705823,
+   "lng": -76.9507007,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/454602311",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0301119,
+   "lng": -76.9096188,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/465784085",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1389671,
+   "lng": -76.9878038,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/467822122",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.2490003,
+   "lng": -76.9283561,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/469796838",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0298371,
+   "lng": -76.9458201,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/474405685",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9384599,
+   "lng": -77.0427375,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/481542732",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1413477,
+   "lng": -76.9487929,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/485762066",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1262978,
+   "lng": -76.8656621,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/496739492",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0765534,
+   "lng": -77.0445218,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/502157110",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.033277,
+   "lng": -76.9882379,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/511308871",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0949251,
+   "lng": -76.8849276,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/559090065",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0200448,
+   "lng": -77.0024986,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/568346260",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1750382,
+   "lng": -77.0023555,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/569447608",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1406303,
+   "lng": -77.0226158,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/597102673",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8256737,
+   "lng": -77.152519,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/612028008",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0114314,
+   "lng": -76.8547676,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/641342977",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0297811,
+   "lng": -76.9335224,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/651216795",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8852593,
+   "lng": -77.0149959,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/805794862",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.1425696,
+   "lng": -76.9421747,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/820844404",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9919223,
+   "lng": -77.047436,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/824763912",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9404414,
+   "lng": -76.97525,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/829513172",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.947705,
+   "lng": -76.9765413,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/832016545",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.079082,
+   "lng": -76.9959295,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835377893",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0754146,
+   "lng": -77.0054793,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835377903",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0768757,
+   "lng": -77.0017605,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835381703",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0707436,
+   "lng": -76.99674,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835538085",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9716638,
+   "lng": -77.0436138,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835601585",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9666038,
+   "lng": -77.0535803,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835908632",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0806142,
+   "lng": -76.9952976,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/835918527",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0782771,
+   "lng": -76.9915233,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/836636606",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0771361,
+   "lng": -77.0033547,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/837281907",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0768341,
+   "lng": -77.0066541,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/838409983",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.8281902,
+   "lng": -77.0713488,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/914458966",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9923209,
+   "lng": -77.0866677,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/930427061",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -12.0142847,
+   "lng": -77.035941,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/952480819",
+   "nombre": "Templo cristiano sin nombre (OpenStreetMap)",
+   "lat": -11.9938411,
+   "lng": -77.0171877,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/5010193143",
+   "nombre": "Templo de Jesus",
+   "lat": -12.1464589,
+   "lng": -77.0180605,
+   "direccion": "Pz Rai Mondi",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/413030061",
+   "nombre": "Templo del Monasterio de Religiosas Agustinas de la Encarnación",
+   "lat": -12.0766432,
+   "lng": -77.055658,
+   "direccion": "Avenida Brasil 1780",
+   "distrito": "Pueblo Libre",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "relation/2710325",
+   "nombre": "Templo Esclavas del Sagrado Corazón de Jesús",
+   "lat": -12.0512659,
+   "lng": -77.0390996,
+   "direccion": "Avenida Garcilazo de la Vega 924",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435213303",
+   "nombre": "Templo La Hermosa",
+   "lat": -12.2055748,
+   "lng": -76.987305,
+   "direccion": "Jirón Progreso",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/446222725",
+   "nombre": "Templo Señor de los Milagros",
+   "lat": -12.0995219,
+   "lng": -76.87696,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Nombre_Catolico"
+  },
+  {
+   "osm_id": "node/4357784717",
+   "nombre": "Trebol Azul",
+   "lat": -12.1761121,
+   "lng": -76.9639015,
+   "direccion": "Horacio Zavallos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "node/9882115177",
+   "nombre": "Villa del Mar",
+   "lat": -12.1965628,
+   "lng": -76.9691659,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Sin_Marcador"
+  },
+  {
+   "osm_id": "way/75980627",
+   "nombre": "Villa Señor de los Milagros",
+   "lat": -12.0415212,
+   "lng": -77.0857711,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/400447471",
+   "nombre": "Virgen del Carmen",
+   "lat": -12.0379208,
+   "lng": -77.0384683,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/483689455",
+   "nombre": "Virgen del Carmen y Divino Niño",
+   "lat": -12.1058474,
+   "lng": -76.8319529,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5319283122",
+   "nombre": "Virgen santisima",
+   "lat": -12.0455779,
+   "lng": -76.9169945,
+   "direccion": "Monteverde",
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4431046251",
+   "nombre": "Vírgen del Rosario",
+   "lat": -11.9792324,
+   "lng": -77.0928949,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  }
+ ]
+}

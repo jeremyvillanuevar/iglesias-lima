@@ -1,0 +1,2313 @@
+{
+ "fuente": "OpenStreetMap (Overpass API)",
+ "atribucion": "© Colaboradores de OpenStreetMap — https://www.openstreetmap.org/copyright",
+ "licencia": "Open Database License (ODbL) 1.0 — https://opendatacommons.org/licenses/odbl/1-0/",
+ "area": "Lima Metropolitana y Callao",
+ "denominacion": "Evangelica",
+ "fecha_datos_osm": "2026-10-23T17:18:31Z",
+ "criterio": "amenity=place_of_worship + religion=christian. Confirmada_OSM: etiqueta denomination de la lista protestante (evangelical, pentecostal, baptist, methodist, presbyterian, lutheran, anglican, nazarene, assemblies_of_god, alliance, christian_and_missionary_alliance, mennonite, protestant, foursquare, reformed…). Por_Verificar: sin etiqueta y con nombre evangélico (Evangélica, Cristiana, Bautista, Pentecostal, Asambleas de Dios, Iglesia de Dios, MMM, Alianza Cristiana, Iglesia del Nazareno, Metodista, Presbiteriana, Peniel, Centro Cristiano, Ministerio, Jesucristo es el Señor, Avivamiento, Bíblica, Tabernáculo…). Se excluyen siempre: marcas católicas (Parroquia, Capilla, Santuario, Basílica, santos, Virgen), Salón del Reino, IJSUD, ortodoxas, adventistas (etiqueta o nombre Adventista / Séptimo Día), cualquier otra etiqueta y los elementos ya incluidos en el archivo católico.",
+ "total": 261,
+ "total_confirmadas": 78,
+ "total_por_verificar": 183,
+ "total_sin_marcador": 0,
+ "iglesias": [
+  {
+   "osm_id": "node/9347463875",
+   "nombre": "Agua Viva",
+   "lat": -11.9836955,
+   "lng": -77.0143828,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/13431023067",
+   "nombre": "Alianza Cristiana",
+   "lat": -11.9764409,
+   "lng": -76.7695037,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4277421590",
+   "nombre": "Alianza cristiana",
+   "lat": -12.0565354,
+   "lng": -77.0521146,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438888994",
+   "nombre": "Alianza Cristiana y Misionara",
+   "lat": -12.0164466,
+   "lng": -77.0973809,
+   "direccion": "Avenida Tomas Valle",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4368709373",
+   "nombre": "Alianza Cristiana y Misionera",
+   "lat": -11.9398293,
+   "lng": -77.0774045,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/9757512658",
+   "nombre": "Alianza Cristiana y misionera",
+   "lat": -12.1767915,
+   "lng": -77.0074969,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/1301470755",
+   "nombre": "Alianza Cristiana y Misionera de Pueblo Libre",
+   "lat": -12.0774568,
+   "lng": -77.0562977,
+   "direccion": "Avenida Brasil 1864",
+   "distrito": "Pueblo Libre",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7286137843",
+   "nombre": "Asamble de Dios del Perú",
+   "lat": -11.9461463,
+   "lng": -77.0911261,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4334275483",
+   "nombre": "Casa de Oración",
+   "lat": -11.9195678,
+   "lng": -77.0532648,
+   "direccion": "Avenida El Retablo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/8699775738",
+   "nombre": "Casa de Oración",
+   "lat": -12.2455271,
+   "lng": -76.9191264,
+   "direccion": "Calle 8",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435384437",
+   "nombre": "Catedral de Fe",
+   "lat": -12.0627328,
+   "lng": -77.0405732,
+   "direccion": "Avenida Guzman Blanco",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436284597",
+   "nombre": "Centro Cristiano",
+   "lat": -12.0568815,
+   "lng": -77.1320581,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436781861",
+   "nombre": "Centro Familiar Cristiano",
+   "lat": -12.1478412,
+   "lng": -77.0202424,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/9348035335",
+   "nombre": "Clínica Celestial",
+   "lat": -12.0307286,
+   "lng": -76.8201949,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3620430015",
+   "nombre": "Comunidad Cristiana Agua Viva",
+   "lat": -12.0854754,
+   "lng": -77.0336629,
+   "direccion": "Jirón Risso",
+   "distrito": "Lince",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439920688",
+   "nombre": "Comunidad Cristiana Agua Viva",
+   "lat": -11.9369938,
+   "lng": -76.6953158,
+   "direccion": "Calle 28 de Julio",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/9347987146",
+   "nombre": "Cristo Es El Camino",
+   "lat": -12.0165691,
+   "lng": -76.8247956,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13737450528",
+   "nombre": "Ejercito de Salvación",
+   "lat": -12.0217151,
+   "lng": -76.8114232,
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13733408991",
+   "nombre": "Ejército de Salvación",
+   "lat": -12.0621795,
+   "lng": -77.0395669,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13733455753",
+   "nombre": "Ejército de Salvación",
+   "lat": -12.0626968,
+   "lng": -77.1461645,
+   "direccion": "Jirón Colón 160",
+   "distrito": "Callao",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13733794797",
+   "nombre": "Ejército de Salvación",
+   "lat": -12.0327818,
+   "lng": -77.0938529,
+   "direccion": "Jirón Arequipa 4039",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13733842784",
+   "nombre": "Ejército de Salvación",
+   "lat": -11.828054,
+   "lng": -77.1657103,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/13733950210",
+   "nombre": "Ejército de Salvación",
+   "lat": -12.026159,
+   "lng": -76.8998324,
+   "direccion": "Avenida Progreso 1032",
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1499793732",
+   "nombre": "Ejército de Salvación - División Perú",
+   "lat": -12.0685864,
+   "lng": -77.0630939,
+   "direccion": "Zaragoza 215",
+   "distrito": "Pueblo Libre",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435851341",
+   "nombre": "Emmanuel Iglesia Bíblica",
+   "lat": -12.0909027,
+   "lng": -77.0264127,
+   "direccion": "Avenida Javier Prado Este 671",
+   "distrito": "San Isidro",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3952256145",
+   "nombre": "Fuente de Gracia",
+   "lat": -12.0415816,
+   "lng": -77.0317419,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/14041173499",
+   "nombre": "IACyM Pro",
+   "lat": -11.9363286,
+   "lng": -77.0812986,
+   "direccion": "Avenida La Cordialidad Mz D5 Lt 5",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5315798623",
+   "nombre": "IBC Iglesia Bíblica Cristiana",
+   "lat": -12.062904,
+   "lng": -76.9497433,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1059369459",
+   "nombre": "IELP - Iglesia de cristo",
+   "lat": -12.1169974,
+   "lng": -76.9778573,
+   "direccion": "Calle Monte Casino 190",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5022928720",
+   "nombre": "Igelsia Cristiana Nueva Arca de Salvación",
+   "lat": -12.1877304,
+   "lng": -76.9890328,
+   "direccion": "Avenida Vista Alegre",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438878244",
+   "nombre": "Iglesia Alianza Cristiana",
+   "lat": -11.9979627,
+   "lng": -77.1080987,
+   "direccion": "Avenida Pacasmayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4353140559",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -11.9839019,
+   "lng": -77.0061149,
+   "direccion": "Avenida Fernando Wiese",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/6775901385",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -12.1756536,
+   "lng": -76.936612,
+   "direccion": "Avenida 26 de Noviembre 440",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/7564548039",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -12.1917174,
+   "lng": -76.9330358,
+   "direccion": "Avenida 27 de Diciembre 342",
+   "distrito": "Villa María del Triunfo",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436427270",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -11.8389183,
+   "lng": -77.1060789,
+   "direccion": "Calle Leoncio Prado",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437661893",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -12.1385498,
+   "lng": -76.9938874,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439178806",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -12.0209789,
+   "lng": -77.0874332,
+   "direccion": "Avenida José Granda",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/816689159",
+   "nombre": "Iglesia Alianza Cristiana y Misionera",
+   "lat": -11.9953874,
+   "lng": -77.0639996,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/397696561",
+   "nombre": "Iglesia Alianza Cristiana y Misionera de Lince",
+   "lat": -12.0875268,
+   "lng": -77.034435,
+   "direccion": "Avenida Arequipa 2356",
+   "distrito": "Lince",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4367393901",
+   "nombre": "Iglesia Alianza Cristiana y Misionera Kairós",
+   "lat": -12.0365173,
+   "lng": -76.9609843,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436779136",
+   "nombre": "Iglesia Allanxo Cristiana",
+   "lat": -11.9481127,
+   "lng": -77.0500239,
+   "direccion": "Avenida Tupac Amaru",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435355899",
+   "nombre": "Iglesia Anglicana El Buen Pastor",
+   "lat": -12.1078975,
+   "lng": -77.034616,
+   "direccion": "Avenida Santa Cruz",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/448226579",
+   "nombre": "Iglesia Bautista",
+   "lat": -12.1452991,
+   "lng": -76.9760287,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/804366487",
+   "nombre": "Iglesia Bautista",
+   "lat": -12.1558179,
+   "lng": -76.9533832,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435710340",
+   "nombre": "Iglesia Bautista Ebenezer",
+   "lat": -12.111899,
+   "lng": -77.0315675,
+   "direccion": "Calle Coronel Inclán",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/445398610",
+   "nombre": "Iglesia Bautista EFATA",
+   "lat": -12.201805,
+   "lng": -76.9440632,
+   "direccion": "Avenida Revolución Sector 2 Grupo 11 Manzana C Lote 21",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3756560945",
+   "nombre": "Iglesia Bautista Hebrón",
+   "lat": -12.1915788,
+   "lng": -76.9411929,
+   "direccion": "Avenida Príncipe de Asturias",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437642246",
+   "nombre": "Iglesia Bautista Maranatha",
+   "lat": -12.1664248,
+   "lng": -76.9680669,
+   "direccion": "German Amezaga",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/439204140",
+   "nombre": "Iglesia Bautista Vida Nueva",
+   "lat": -12.1109455,
+   "lng": -76.9826461,
+   "direccion": "Avenida Primavera",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1299899983",
+   "nombre": "Iglesia Beula Perú",
+   "lat": -11.9789276,
+   "lng": -77.0395135,
+   "direccion": "Calle Hermanos Ayar 302",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437635750",
+   "nombre": "Iglesia Biblica Apostolica Linaje del Rey",
+   "lat": -12.1651048,
+   "lng": -76.9589396,
+   "direccion": "Calle 4",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4334635826",
+   "nombre": "Iglesia Biblica Bautista",
+   "lat": -11.8813093,
+   "lng": -77.0230271,
+   "direccion": "Jirón Miguel Grau Oeste",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435193293",
+   "nombre": "Iglesia Biblica Bautista",
+   "lat": -12.0895147,
+   "lng": -77.0839198,
+   "direccion": "Jirón Independencia",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436482238",
+   "nombre": "Iglesia Biblica Bautista",
+   "lat": -11.8356853,
+   "lng": -77.1404722,
+   "direccion": "Avenida 225",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439207218",
+   "nombre": "Iglesia Biblica Bautista",
+   "lat": -12.0158128,
+   "lng": -77.0930793,
+   "direccion": "Jirón El Condor",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439240781",
+   "nombre": "Iglesia Biblica Bautista",
+   "lat": -12.0250871,
+   "lng": -77.0992623,
+   "direccion": "Avenida El Olivar",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435849655",
+   "nombre": "Iglesia Biblica Bautista Betel",
+   "lat": -11.8994419,
+   "lng": -77.0326862,
+   "direccion": "Avenida San Martín",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438638053",
+   "nombre": "Iglesia Biblica Bautista de Palmas Reales",
+   "lat": -11.9919121,
+   "lng": -77.0792614,
+   "direccion": "Avenida Carlos Alberto Izaguirre",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439238963",
+   "nombre": "Iglesia Biblica Bautista La Palabra",
+   "lat": -12.0131884,
+   "lng": -77.0873994,
+   "direccion": "Avenida 12 de Octubre",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435337775",
+   "nombre": "Iglesia Biblica Bautista Pro",
+   "lat": -11.9334756,
+   "lng": -77.0757752,
+   "direccion": "La Confraternidad",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/806942666",
+   "nombre": "Iglesia Biblica Bautista Siloe",
+   "lat": -11.9370384,
+   "lng": -77.0580262,
+   "direccion": "Avenida Universitaria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439043376",
+   "nombre": "Iglesia Biblica Bautista Vida Nueva",
+   "lat": -11.9861648,
+   "lng": -77.1013696,
+   "direccion": "Avenida Canta Callao",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/608117244",
+   "nombre": "Iglesia Biblica Cristiana La Molina",
+   "lat": -12.0833855,
+   "lng": -76.9580454,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438878241",
+   "nombre": "Iglesia Biblica Emmanuel",
+   "lat": -11.9971759,
+   "lng": -77.1084991,
+   "direccion": "Avenida Pacasmayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436468535",
+   "nombre": "Iglesia Biblica Emmanuel Surco",
+   "lat": -12.1303082,
+   "lng": -77.002117,
+   "direccion": "Pasaje La Montera",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436795391",
+   "nombre": "Iglesia Biblica Maranga",
+   "lat": -12.0737835,
+   "lng": -77.0986603,
+   "direccion": "Machu Picchu",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/307528003",
+   "nombre": "Iglesia Biblica Misionera del Perú",
+   "lat": -11.9846013,
+   "lng": -77.0121468,
+   "direccion": "Manzana I Lote 30 Urbanización Ganímedes",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4574198992",
+   "nombre": "Iglesia Biblica Presbiteriana La Perla",
+   "lat": -12.0713453,
+   "lng": -77.1214622,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436979091",
+   "nombre": "Iglesia Bíblica Bautista",
+   "lat": -11.8149649,
+   "lng": -77.134393,
+   "direccion": "Avenida Los Arquitectos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/439893247",
+   "nombre": "Iglesia Bíblica Bautista",
+   "lat": -11.9790663,
+   "lng": -77.0780993,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/12597149660",
+   "nombre": "Iglesia Bíblica Emmanuel",
+   "lat": -11.9832091,
+   "lng": -77.0178174,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4366532699",
+   "nombre": "Iglesia Bíblica Emmanuel",
+   "lat": -12.0079282,
+   "lng": -77.1067823,
+   "direccion": "Avenida Paseo Japon",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4750191722",
+   "nombre": "iglesia Casa de Oración",
+   "lat": -12.0866606,
+   "lng": -77.0706671,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4368448738",
+   "nombre": "Iglesia Cristiana",
+   "lat": -11.9990086,
+   "lng": -77.1024215,
+   "direccion": "Avenida Los Dominicos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5058848649",
+   "nombre": "Iglesia Cristiana Amanacer con Cristo",
+   "lat": -11.9568263,
+   "lng": -77.0806005,
+   "direccion": "Avenida Central",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4347547705",
+   "nombre": "Iglesia Cristiana Apostolica Pentecostal",
+   "lat": -12.0817641,
+   "lng": -77.0513849,
+   "direccion": "Jirón Hermilio Valdizán",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439791925",
+   "nombre": "Iglesia Cristiana Bethel",
+   "lat": -11.9741065,
+   "lng": -76.7643985,
+   "direccion": "Carretera Central",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4341314068",
+   "nombre": "Iglesia Cristiana Comunidad de Fe",
+   "lat": -12.0736608,
+   "lng": -77.052973,
+   "direccion": "Avenida Brasil",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4284887991",
+   "nombre": "Iglesia Cristiana CRISTO MI REDENTOR",
+   "lat": -11.9302793,
+   "lng": -77.0444206,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435393385",
+   "nombre": "Iglesia Cristiana Dios con Nosothos",
+   "lat": -11.8802089,
+   "lng": -77.028197,
+   "direccion": "Avenida Universitaria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436277246",
+   "nombre": "Iglesia Cristiana Evangelica",
+   "lat": -12.0487945,
+   "lng": -77.1349247,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438861199",
+   "nombre": "Iglesia Cristiana Evangelica Palabra Viva",
+   "lat": -12.1244996,
+   "lng": -76.9989951,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439240344",
+   "nombre": "Iglesia Cristiana Evangélica",
+   "lat": -12.0190771,
+   "lng": -77.0960922,
+   "direccion": "Avenida El Olivar",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436941375",
+   "nombre": "Iglesia Cristiana Evangélica Pentecostal",
+   "lat": -12.115185,
+   "lng": -77.0134309,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437673333",
+   "nombre": "Iglesia Cristiana Internacional Poder y Gloria",
+   "lat": -12.1543032,
+   "lng": -76.9531719,
+   "direccion": "Jiron Cajamarca",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4334189815",
+   "nombre": "Iglesia Cristiana Jesús es me Salvádor y Señor",
+   "lat": -11.9165007,
+   "lng": -77.0439298,
+   "direccion": "Avenida Los Incas",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/521684192",
+   "nombre": "Iglesia Cristiana Justicia de Dios Para Las Naciones",
+   "lat": -11.7633516,
+   "lng": -77.1670204,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/12614192098",
+   "nombre": "Iglesia Cristiana La Puerta",
+   "lat": -12.1124906,
+   "lng": -77.0214159,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1046745999",
+   "nombre": "Iglesia Cristiana La Puerta",
+   "lat": -12.0657294,
+   "lng": -77.0453979,
+   "direccion": "Jiron Mogaburos 132",
+   "distrito": "Jesús María",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436273267",
+   "nombre": "Iglesia Cristiana Linaje Real",
+   "lat": -12.0511123,
+   "lng": -77.1345505,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4344769632",
+   "nombre": "Iglesia Cristiana Manmin",
+   "lat": -12.0819872,
+   "lng": -77.0358812,
+   "direccion": "Avenida Alvarez de Arenales 2201",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/519410890",
+   "nombre": "Iglesia Cristiana Mision Divino Maestro",
+   "lat": -11.9160251,
+   "lng": -77.093037,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/519369659",
+   "nombre": "Iglesia Cristiana Misionera de Restauración Familiar",
+   "lat": -11.9583782,
+   "lng": -77.0784711,
+   "direccion": "Avenida Central",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1098146769",
+   "nombre": "Iglesia Cristiana Monte de Los Olivos",
+   "lat": -11.9533913,
+   "lng": -77.0750032,
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4341632738",
+   "nombre": "Iglesia Cristiana Nuevo Amanecer",
+   "lat": -11.9148908,
+   "lng": -77.0346977,
+   "direccion": "Avenida Revolución",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437841916",
+   "nombre": "Iglesia Cristiana Penetecostés del Perú - Movimiento Misionero Mundial - Villa Chorrillos",
+   "lat": -12.1967542,
+   "lng": -76.984842,
+   "direccion": "Avenida Volcán Coropuna",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/961402605",
+   "nombre": "Iglesia Cristiana Pentecostal 10 de Octubre",
+   "lat": -11.9423135,
+   "lng": -76.9906686,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/438646991",
+   "nombre": "Iglesia Cristiana Pentecostal del Peru",
+   "lat": -11.9909656,
+   "lng": -77.093744,
+   "direccion": "Avenida Carlos Alberto Izaguirre",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4356613211",
+   "nombre": "Iglesia Cristiana Pentecostes",
+   "lat": -12.1583657,
+   "lng": -76.9750272,
+   "direccion": "Guillermo Billinghurst",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/458599263",
+   "nombre": "Iglesia Cristiana Pentecostes",
+   "lat": -12.2360692,
+   "lng": -76.9104148,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436758745",
+   "nombre": "Iglesia Cristiana Pentecostes Del Peru",
+   "lat": -12.145923,
+   "lng": -77.0191742,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437659642",
+   "nombre": "Iglesia Cristiana Pentecostes del Peru",
+   "lat": -12.1711692,
+   "lng": -76.9575593,
+   "direccion": "Principal",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437678466",
+   "nombre": "Iglesia Cristiana Pentecostes del Peru",
+   "lat": -12.1570445,
+   "lng": -76.9523279,
+   "direccion": "Avenida Manco Capac",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437999915",
+   "nombre": "Iglesia Cristiana Pentecostes Del Peru",
+   "lat": -12.0802114,
+   "lng": -77.0188014,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438477735",
+   "nombre": "Iglesia Cristiana Pentecostes del Peru",
+   "lat": -12.0626408,
+   "lng": -77.0237654,
+   "direccion": "Avenida 28 de Julio",
+   "distrito": "La Victoria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439800053",
+   "nombre": "Iglesia Cristiana Pentecostes del Peru",
+   "lat": -11.9792946,
+   "lng": -77.0847565,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4341668575",
+   "nombre": "Iglesia Cristiana Pentecostes del Perú",
+   "lat": -11.9149646,
+   "lng": -77.0315964,
+   "direccion": "Avenida Revolución",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4348022779",
+   "nombre": "Iglesia Cristiana Pentecostes del Perú",
+   "lat": -12.2278045,
+   "lng": -76.9278991,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435682890",
+   "nombre": "Iglesia Cristiana Pentecostes del Perú",
+   "lat": -12.2200543,
+   "lng": -76.9499704,
+   "direccion": "Avenida Maria Elena Moyano",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435868419",
+   "nombre": "Iglesia Cristiana Pentecostes del Perú",
+   "lat": -11.9528905,
+   "lng": -77.0595187,
+   "direccion": "Avenida Universitaria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436409288",
+   "nombre": "Iglesia Cristiana Pentecostes del Perú",
+   "lat": -11.9705738,
+   "lng": -77.060266,
+   "direccion": "Metropolitana",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437642046",
+   "nombre": "Iglesia Cristiana Pentecostes del Perú",
+   "lat": -12.1660762,
+   "lng": -76.9573444,
+   "direccion": "Prolongación Guillermo Billinghurst",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5065105105",
+   "nombre": "Iglesia Cristiana Pentecostés del Perú",
+   "lat": -11.9342539,
+   "lng": -77.0896683,
+   "direccion": "Avenida Integración",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/10111221443",
+   "nombre": "Iglesia Cristiana Pentecostés del Perú Marko Jara Schenone",
+   "lat": -11.8116871,
+   "lng": -77.1290042,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4362176400",
+   "nombre": "Iglesia Cristiana Pentecostés del Perú Movimiento Misionero Mundial",
+   "lat": -12.1683218,
+   "lng": -76.9914848,
+   "direccion": "Avenida Guardia Civil Sur",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4453653394",
+   "nombre": "Iglesia Cristiana Pueblo de Dios",
+   "lat": -12.1265992,
+   "lng": -76.9845398,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4363579163",
+   "nombre": "Iglesia Cristiana Roca Fuerte",
+   "lat": -12.1829962,
+   "lng": -76.9254541,
+   "direccion": "Mama Ocllo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436436647",
+   "nombre": "Iglesia Cristiana Shekinah Piedras Vivas",
+   "lat": -12.0589176,
+   "lng": -77.14313,
+   "direccion": "Avenida 2 de Mayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/758607602",
+   "nombre": "Iglesia Cristiana y Misionera",
+   "lat": -12.0732778,
+   "lng": -76.9530765,
+   "direccion": "Los Jilgeros 391",
+   "distrito": "La Molina",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5058480827",
+   "nombre": "Iglesia Cristiana y Misionera Jesucristo es El Señor",
+   "lat": -11.955459,
+   "lng": -77.0773517,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "relation/8760107",
+   "nombre": "Iglesia Cristo te ama",
+   "lat": -12.2371289,
+   "lng": -76.915048,
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436795852",
+   "nombre": "Iglesia de Avivamiento Maranatha",
+   "lat": -12.0600026,
+   "lng": -77.1348785,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/11198851120",
+   "nombre": "Iglesia de Dios",
+   "lat": -12.0407062,
+   "lng": -77.0968875,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4343584236",
+   "nombre": "Iglesia de Dios",
+   "lat": -11.8393942,
+   "lng": -77.138175,
+   "direccion": "Avenida 225",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4366605666",
+   "nombre": "Iglesia de Dios",
+   "lat": -12.0033658,
+   "lng": -77.0029533,
+   "direccion": "Avenida 13 de Enero",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/8840818305",
+   "nombre": "Iglesia de Dios",
+   "lat": -12.2136012,
+   "lng": -76.9053322,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/413035084",
+   "nombre": "Iglesia de Dios",
+   "lat": -12.0879166,
+   "lng": -77.064785,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435719745",
+   "nombre": "Iglesia de Dios",
+   "lat": -11.8919682,
+   "lng": -77.0301049,
+   "direccion": "Avenida Señor de Caudivilla",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439237075",
+   "nombre": "Iglesia de Dios",
+   "lat": -12.018447,
+   "lng": -77.0991628,
+   "direccion": "Avenida Tomas Valle",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/243007148",
+   "nombre": "Iglesia de Dios (WMC)",
+   "lat": -12.0620001,
+   "lng": -77.0968715,
+   "direccion": "Elmer Faucett",
+   "distrito": "Bellavista",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4417686691",
+   "nombre": "Iglesia de Dios de la Profecia",
+   "lat": -11.8822465,
+   "lng": -77.0716454,
+   "direccion": "Avenida Rosa Luz",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5064668845",
+   "nombre": "Iglesia de Dios de la Profecia",
+   "lat": -11.8457917,
+   "lng": -77.1474672,
+   "direccion": "Los Constructores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438651746",
+   "nombre": "Iglesia de Dios de la Profecia",
+   "lat": -11.9950801,
+   "lng": -77.1090506,
+   "direccion": "Avenida Pacasmayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4368264231",
+   "nombre": "Iglesia de Dios de La Profecía",
+   "lat": -11.9572282,
+   "lng": -77.07591,
+   "direccion": "Avenida Los Próceres de Huandoy",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4354214250",
+   "nombre": "Iglesia de Dios de la Proficia",
+   "lat": -11.9403269,
+   "lng": -76.9869826,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5064338372",
+   "nombre": "Iglesia de Dios del Peru",
+   "lat": -11.9598214,
+   "lng": -77.0962916,
+   "direccion": "Tantamayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435498460",
+   "nombre": "Iglesia de Dios del Perú",
+   "lat": -12.2263714,
+   "lng": -76.9225442,
+   "direccion": "Avenida Separadora Industrial",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/580217115",
+   "nombre": "Iglesia de Dios del Perú",
+   "lat": -11.9785239,
+   "lng": -77.0857012,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437318836",
+   "nombre": "Iglesia de Dios Pentecostal",
+   "lat": -12.1487963,
+   "lng": -76.9804353,
+   "direccion": "Santa Monica",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4341729154",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -11.8780501,
+   "lng": -77.1304701,
+   "direccion": "Avenida La Playa",
+   "distrito": "Ventanilla",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4837823026",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -11.9143277,
+   "lng": -77.026552,
+   "direccion": "Jirón Jose Santos Chocano 196",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4837835222",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -11.9392929,
+   "lng": -77.0595633,
+   "direccion": "Jose Quiñones 106",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4839158622",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -11.9574294,
+   "lng": -77.0713485,
+   "direccion": "Avenida San Ernesto 6216",
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4839373321",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -11.8556207,
+   "lng": -77.087665,
+   "direccion": "Avenida Buenos Aires 1400",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4839373421",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -11.962218,
+   "lng": -77.0946297,
+   "direccion": "Central",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4883400227",
+   "nombre": "Iglesia de Dios Sociedad Misionera Mundial",
+   "lat": -12.043905,
+   "lng": -76.973247,
+   "direccion": "Pablo Neruda 329",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/445971610",
+   "nombre": "Iglesia de Jesucristo",
+   "lat": -12.0880676,
+   "lng": -76.8829994,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4508813829",
+   "nombre": "Iglesia del Nazareno",
+   "lat": -12.0398708,
+   "lng": -77.0897568,
+   "direccion": "Manco Capac 918",
+   "distrito": "Carmen de la Legua - Reynoso",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437873147",
+   "nombre": "Iglesia del Nazareno",
+   "lat": -12.2275994,
+   "lng": -76.9133485,
+   "direccion": "Pachacutec",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/443869640",
+   "nombre": "Iglesia Ejército de Salvación - Cuerpo Callao",
+   "lat": -12.0627036,
+   "lng": -77.1461397,
+   "direccion": "Jirón Colón 160",
+   "distrito": "Callao",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435545535",
+   "nombre": "Iglesia Ejército de Salvación - Cuerpo Central de Lima",
+   "lat": -12.0621987,
+   "lng": -77.0395636,
+   "direccion": "Enrique Torres Saldamando 215",
+   "distrito": "Cercado de Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1499804339",
+   "nombre": "Iglesia Ejército de Salvación - Cuerpo Vitarte",
+   "lat": -12.0261957,
+   "lng": -76.8998825,
+   "direccion": "Avenida Progreso 1032",
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1500239743",
+   "nombre": "Iglesia Ejército de Salvación - Extensión Huaycán",
+   "lat": -12.0216957,
+   "lng": -76.8114862,
+   "distrito": "Ate",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1499798068",
+   "nombre": "Iglesia Ejército de Salvación - Extensión Ventanilla",
+   "lat": -11.8280447,
+   "lng": -77.1656643,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/551358679",
+   "nombre": "Iglesia Evangelica",
+   "lat": -12.1384734,
+   "lng": -76.9584804,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/439807847",
+   "nombre": "Iglesia Evangelica Bautista",
+   "lat": -11.9827693,
+   "lng": -77.0859349,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/7784815404",
+   "nombre": "Iglesia Evangelica Bautista Maranatha",
+   "lat": -12.1678429,
+   "lng": -77.0205092,
+   "direccion": "Jirón Emilio Sandoval 501",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436738985",
+   "nombre": "Iglesia Evangelica Coreana",
+   "lat": -12.1094966,
+   "lng": -77.0268155,
+   "direccion": "Avenida Paseo de la República",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437512164",
+   "nombre": "Iglesia Evangelica Cristo",
+   "lat": -12.1733712,
+   "lng": -76.9557754,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/511783443",
+   "nombre": "Iglesia Evangelica El Jilgal",
+   "lat": -12.0422865,
+   "lng": -77.1205045,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/513169764",
+   "nombre": "Iglesia Evangelica Pentecostal Misionera-Jicamarca",
+   "lat": -11.9814259,
+   "lng": -76.9439413,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5065123054",
+   "nombre": "Iglesia Evangelica Pentecostes Monte Alto de Dios",
+   "lat": -11.9352194,
+   "lng": -77.0867763,
+   "direccion": "Calle Las Orquídeas",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435868425",
+   "nombre": "Iglesia Evangelica Sion Cristo Viene",
+   "lat": -11.9504227,
+   "lng": -77.0597322,
+   "direccion": "Avenida Universitaria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/518414350",
+   "nombre": "Iglesia Evangelista Bautista El Redentor",
+   "lat": -11.9647423,
+   "lng": -77.0773394,
+   "direccion": "Calle 15",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/11009380725",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0414988,
+   "lng": -77.0029566,
+   "direccion": "Jirón Áncash 2144",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11225237163",
+   "nombre": "Iglesia evangélica",
+   "lat": -11.9565881,
+   "lng": -76.9765102,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3840381376",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0385949,
+   "lng": -77.0871267,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5207342777",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0274677,
+   "lng": -76.9269423,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/6913003178",
+   "nombre": "Iglesia evangélica",
+   "lat": -11.9818617,
+   "lng": -77.0771487,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/8144231696",
+   "nombre": "Iglesia evangélica",
+   "lat": -11.9860942,
+   "lng": -77.0119125,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/9342031485",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0188072,
+   "lng": -77.0121038,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/9854807603",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0065457,
+   "lng": -77.0111634,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437854260",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.2081314,
+   "lng": -76.9068256,
+   "direccion": "Jirón Madre de Dios",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/556174628",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.1873502,
+   "lng": -77.0054306,
+   "direccion": "Calle San Roque",
+   "distrito": "Chorrillos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/593206877",
+   "nombre": "Iglesia evangélica",
+   "lat": -11.9045536,
+   "lng": -77.0299209,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/799287492",
+   "nombre": "Iglesia evangélica",
+   "lat": -11.8744704,
+   "lng": -77.0343855,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/804442698",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0483738,
+   "lng": -77.013134,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/969854070",
+   "nombre": "Iglesia evangélica",
+   "lat": -12.0487533,
+   "lng": -77.0004235,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/518127507",
+   "nombre": "Iglesia Evangélica Bautista Horeb",
+   "lat": -11.9739018,
+   "lng": -77.0695548,
+   "direccion": "Marcara",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/9820863938",
+   "nombre": "Iglesia Evangélica Cristiana Espiritual",
+   "lat": -12.0408796,
+   "lng": -77.0841663,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439814337",
+   "nombre": "Iglesia Evangélica de los Peregrinos del Perú",
+   "lat": -12.0315374,
+   "lng": -77.0031039,
+   "direccion": "Las Retamas",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/405572381",
+   "nombre": "Iglesia Evangélica El Redentor",
+   "lat": -12.130611,
+   "lng": -76.9825463,
+   "direccion": "Avenida Caminos del Inca",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1365318815",
+   "nombre": "Iglesia Evangélica Pentecostal Del Perú - Filial Jesús Oropeza Chonta",
+   "lat": -11.9669911,
+   "lng": -77.0009015,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437709796",
+   "nombre": "Iglesia Evangélica Pentecostal Ríos de Agua Viva",
+   "lat": -12.2036793,
+   "lng": -77.0071476,
+   "direccion": "Avenida Los Horizontes",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435658497",
+   "nombre": "Iglesia Evangélica Perlana",
+   "lat": -11.900177,
+   "lng": -77.0337344,
+   "direccion": "Avenida San Martín",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436305029",
+   "nombre": "Iglesia Evangélica Peruana",
+   "lat": -11.880054,
+   "lng": -77.1321332,
+   "direccion": "Calle 11",
+   "distrito": "Ventanilla",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/434802016",
+   "nombre": "Iglesia Evangélica Presbiteriana Peruana",
+   "lat": -12.1313962,
+   "lng": -76.9997324,
+   "direccion": "Avenida Santiago De Surco 3210",
+   "distrito": "Lima",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11215305486",
+   "nombre": "Iglesia Evangélica Quechua del Perú",
+   "lat": -11.9357397,
+   "lng": -76.7168186,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/454602370",
+   "nombre": "Iglesia Evangélica Templo La Hermosa",
+   "lat": -12.023701,
+   "lng": -76.9098257,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/838661833",
+   "nombre": "Iglesia Fuente de Vida",
+   "lat": -12.0420339,
+   "lng": -77.0695745,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/1419034906",
+   "nombre": "Iglesia Fuente de Vida Eterna",
+   "lat": -12.164804,
+   "lng": -76.9988767,
+   "direccion": "Avenida Tambo Real",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436787060",
+   "nombre": "Iglesia Metodista de Chorrillos",
+   "lat": -12.1690493,
+   "lng": -77.0238563,
+   "direccion": "Avenida Defensores del Morro",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436300784",
+   "nombre": "Iglesia Metodista de Mireflores",
+   "lat": -12.1247733,
+   "lng": -77.0257148,
+   "direccion": "Calle Grimaldo del Solar",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4103834304",
+   "nombre": "Iglesia Misionera Pentecostés Bethel",
+   "lat": -12.2289012,
+   "lng": -76.9209699,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/9377696151",
+   "nombre": "Iglesia MMM",
+   "lat": -12.0136903,
+   "lng": -77.0313832,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/7399941443",
+   "nombre": "Iglesia Movimiento Misionero Mundial Tiwinza",
+   "lat": -12.0208003,
+   "lng": -77.1395163,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1532021935",
+   "nombre": "Iglesia Peniel",
+   "lat": -11.8415877,
+   "lng": -77.1356564,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5054339021",
+   "nombre": "Iglesia Pentecostal",
+   "lat": -11.97307,
+   "lng": -77.0832785,
+   "direccion": "Huantar",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5054749280",
+   "nombre": "Iglesia Pentecostal",
+   "lat": -11.9722805,
+   "lng": -77.0738607,
+   "direccion": "Avenida Marañon",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/806577288",
+   "nombre": "iglesia pentecostal",
+   "lat": -12.1423807,
+   "lng": -76.9401328,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5056717758",
+   "nombre": "Iglesia Pentecostal Dios de Amor",
+   "lat": -11.9613761,
+   "lng": -77.0950351,
+   "direccion": "Tantamayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5592030322",
+   "nombre": "Iglesia Pentecostal Unida del Perú",
+   "lat": -12.064779,
+   "lng": -77.0196513,
+   "direccion": "Jirón Humboldt 1092",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/438024680",
+   "nombre": "Iglesia Pentecostal Unida del Perú",
+   "lat": -12.0360169,
+   "lng": -76.9348821,
+   "direccion": "Avenida Río Perene",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/9917712790",
+   "nombre": "Iglesia Presbiteriana Betania",
+   "lat": -11.8280831,
+   "lng": -77.1599683,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5065051488",
+   "nombre": "Iglesia Principe de Paz",
+   "lat": -11.924598,
+   "lng": -77.081314,
+   "direccion": "Avenida Paucartambo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4342007653",
+   "nombre": "Iglesia Rey de Gloria",
+   "lat": -11.9455466,
+   "lng": -77.0864277,
+   "direccion": "Avenida Santisima Cruz 343",
+   "distrito": "San Martín de Porres",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437680691",
+   "nombre": "Iglesia Vida Nueva",
+   "lat": -12.0853656,
+   "lng": -76.9257318,
+   "direccion": "Avenida La Molina 142",
+   "distrito": "La Molina",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/3951161563",
+   "nombre": "Iglesia Villa Cruz",
+   "lat": -11.9024204,
+   "lng": -77.0670136,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/468443374",
+   "nombre": "Iglesia Villa el Salvador",
+   "lat": -12.2285412,
+   "lng": -76.9386251,
+   "direccion": "Avenida Mariano Pastor Sevilla",
+   "distrito": "Villa el Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/830882654",
+   "nombre": "Iglesía Visión Cristiana",
+   "lat": -11.9959849,
+   "lng": -77.0143033,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/436965575",
+   "nombre": "Ilesia Cristiana Pentecostés del Perú Moviviento Misionero Mundial Los Rosales",
+   "lat": -11.8145144,
+   "lng": -77.1341443,
+   "direccion": "Avenida Los Arquitectos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/438637523",
+   "nombre": "Inglesia Evangelica",
+   "lat": -12.1942959,
+   "lng": -76.9319481,
+   "direccion": "Avenida Jorge Chávez",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/721155571",
+   "nombre": "IPDA Peru",
+   "lat": -12.0594461,
+   "lng": -77.0429669,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4356635108",
+   "nombre": "Jesucristo es el Señor",
+   "lat": -12.1285395,
+   "lng": -76.9988051,
+   "direccion": "Avenida Alfredo Benavides",
+   "distrito": "Santiago de Surco",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/5010384978",
+   "nombre": "Jesucristo es el Señor",
+   "lat": -12.2080285,
+   "lng": -76.9466357,
+   "direccion": "Avenida Micaela Bastidas",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437629488",
+   "nombre": "Jesucristo es el Señor",
+   "lat": -12.1564648,
+   "lng": -76.9669145,
+   "direccion": "Los Heroes",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439808806",
+   "nombre": "Jesucristo es el Señor",
+   "lat": -12.0478607,
+   "lng": -77.000195,
+   "direccion": "Avenida José de la Riva Aguero",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/440213152",
+   "nombre": "Jesucristo es el Señor",
+   "lat": -12.0073335,
+   "lng": -76.8274578,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4368674500",
+   "nombre": "Jesus Camino de Vida",
+   "lat": -11.9696468,
+   "lng": -77.0756533,
+   "direccion": "Avenida Universitaria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/490783504",
+   "nombre": "La Iglesia de Jesucristo",
+   "lat": -12.1921568,
+   "lng": -76.9589249,
+   "direccion": "Avenida Mateo Pumacahua",
+   "distrito": "San Juan de Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4346297672",
+   "nombre": "La Palabra de Fe",
+   "lat": -12.059407,
+   "lng": -77.1332102,
+   "direccion": "Avenida Saenz Peña 1083",
+   "distrito": "Callao",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/10694198348",
+   "nombre": "LADP Fuente de Gracia",
+   "lat": -11.8717421,
+   "lng": -77.110839,
+   "direccion": "Manzana K1 Lote 13",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/440085185",
+   "nombre": "Las Asambleas de Dios del Peru",
+   "lat": -11.9403573,
+   "lng": -76.7010634,
+   "direccion": "Calle Trujillo Sur",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4346614506",
+   "nombre": "Las Asambleas de Dios del Perú",
+   "lat": -12.1700832,
+   "lng": -77.02343,
+   "direccion": "Avenida Defensores del Morro",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437711110",
+   "nombre": "Las Asambleas de Dios del Perú",
+   "lat": -12.2011984,
+   "lng": -77.0033308,
+   "direccion": "Avenida Los Horizontes",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/437873279",
+   "nombre": "Las Asambleas de Dios, Luz y Esperanza",
+   "lat": -12.1716171,
+   "lng": -76.9699679,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4949302282",
+   "nombre": "Las Buenas Nuevas",
+   "lat": -12.1149751,
+   "lng": -77.0242683,
+   "direccion": "Jirón Francisco Moreno 694",
+   "distrito": "Surquillo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/435393377",
+   "nombre": "León de Juda",
+   "lat": -11.8758409,
+   "lng": -77.0254651,
+   "direccion": "Avenida Universitaria",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/512937511",
+   "nombre": "Los Angeles",
+   "lat": -12.1974356,
+   "lng": -76.9452581,
+   "direccion": "Avenida Los Angeles",
+   "distrito": "Villa El Salvador",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/837472144",
+   "nombre": "Manantial de Vida",
+   "lat": -11.992038,
+   "lng": -77.0126319,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/5058555753",
+   "nombre": "Mision Cristiana Echando la Red a las Naciones",
+   "lat": -11.9532295,
+   "lng": -77.0807903,
+   "direccion": "Limoncillos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436739972",
+   "nombre": "Mision Cristiana Evangelica",
+   "lat": -11.9187013,
+   "lng": -77.0418656,
+   "direccion": "Avenida Tupac Amaru",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/439236983",
+   "nombre": "Mision Cristiana Internacíonal",
+   "lat": -11.9678406,
+   "lng": -77.0752915,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4802269424",
+   "nombre": "Misión Bautista Berea",
+   "lat": -12.1568168,
+   "lng": -76.9555406,
+   "direccion": "Jirón San Jose 272",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/436270527",
+   "nombre": "Misión Bíblica Bautista Del Callao",
+   "lat": -12.050088,
+   "lng": -77.1244502,
+   "direccion": "Avenida Argentina 1719",
+   "distrito": "Callao",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437492948",
+   "nombre": "Misión Bíblica Carismática",
+   "lat": -11.9981313,
+   "lng": -77.0089349,
+   "direccion": "Avenida Proceres de la Independencia",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1007641578",
+   "nombre": "Misión Cristiana Patmos",
+   "lat": -11.9908786,
+   "lng": -77.0622595,
+   "direccion": "Calle Los Andes 510",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/10111221441",
+   "nombre": "Misión Divino Maestro Las asambleas de Dios del Perú",
+   "lat": -11.816743,
+   "lng": -77.1224593,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/437497172",
+   "nombre": "Misión Luterana",
+   "lat": -12.0953027,
+   "lng": -77.0034349,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/11215329937",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -11.9320047,
+   "lng": -76.7182625,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/11361221043",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -12.0380788,
+   "lng": -77.0820175,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4343030307",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -11.8925073,
+   "lng": -77.0285297,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4361723422",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -12.1778182,
+   "lng": -76.9508521,
+   "direccion": "El Ejercito 125",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4361740876",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -12.1812132,
+   "lng": -76.9511837,
+   "direccion": "Del Paraiso",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/4735443737",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -12.0389587,
+   "lng": -77.0889128,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1040722124",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -11.9813256,
+   "lng": -77.0131292,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/435494366",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -11.8769801,
+   "lng": -77.1352022,
+   "direccion": "Avenida La Playa",
+   "distrito": "Ventanilla",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/438899748",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -12.1035053,
+   "lng": -76.9420016,
+   "direccion": "Prolongación Los Fresnos",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/518421690",
+   "nombre": "Movimiento Misionero Mundial",
+   "lat": -11.957946,
+   "lng": -77.098112,
+   "direccion": "Tantamayo",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/11215328149",
+   "nombre": "Movimiento Misionero Mundial Anexo 3",
+   "lat": -11.9388492,
+   "lng": -76.7140049,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/13005616039",
+   "nombre": "Movimiento Misionero Mundial Anexo Los Olivos",
+   "lat": -11.9839361,
+   "lng": -77.0733985,
+   "direccion": "Avenida Los Alisos",
+   "distrito": "Los Olivos",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/806243139",
+   "nombre": "Movimiento Misionero Mundial Campoy",
+   "lat": -12.0246465,
+   "lng": -76.9677418,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/11773791080",
+   "nombre": "Movimiento Misionero Mundial Los Ficus",
+   "lat": -12.046966,
+   "lng": -76.9735787,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/1042056886",
+   "nombre": "Movimiento Misiónero Mundial",
+   "lat": -12.0250087,
+   "lng": -76.8207733,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "way/439199549",
+   "nombre": "Nuevo Avivamiento",
+   "lat": -12.0267851,
+   "lng": -77.0730245,
+   "direccion": "Avenida José Granda",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/519392089",
+   "nombre": "Palabra de Vida",
+   "lat": -11.9264888,
+   "lng": -77.0776817,
+   "direccion": "Vía Malecón",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/444073734",
+   "nombre": "Primera Iglesia Bautista del Salvador",
+   "lat": -12.1923944,
+   "lng": -76.9483451,
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/8107535284",
+   "nombre": "Roca de Moisés",
+   "lat": -11.9432741,
+   "lng": -77.0300955,
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  },
+  {
+   "osm_id": "node/4384211397",
+   "nombre": "Shekina",
+   "lat": -12.0722328,
+   "lng": -77.0333576,
+   "direccion": "Jirón Carlos Arrieta",
+   "distrito": "Santa Beatriz",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "way/512927737",
+   "nombre": "Tabernaculo Cristiano",
+   "lat": -12.1997552,
+   "lng": -76.9485959,
+   "direccion": "Avenida Los Angeles",
+   "verificacion_denominacion": "Por_Verificar",
+   "criterio_osm": "Por_Nombre"
+  },
+  {
+   "osm_id": "node/7563142672",
+   "nombre": "Union Church of Lima",
+   "lat": -12.1134072,
+   "lng": -77.0408459,
+   "direccion": "Avenida Angamos Oeste 1155",
+   "distrito": "Miraflores",
+   "verificacion_denominacion": "Confirmada_OSM",
+   "criterio_osm": "Etiqueta_OSM"
+  }
+ ]
+}

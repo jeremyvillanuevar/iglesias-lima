@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Ruta base del sitio. Flutter la reemplaza con el valor de --base-href. -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Iglesias Católicas Lima: mapa de parroquias, misas y actividades en Lima, Perú.">
+  <meta name="theme-color" content="#6A1B9A">
+
+  <!-- PWA en Android / iOS -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Iglesias Católicas Lima">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>Iglesias Católicas Lima</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- ID de cliente web de Google (OAuth) del proyecto iglesias-lima.
+       Lo usa el plugin google_sign_in en la web. El login con Google de la
+       app web usa el popup de Firebase Auth. -->
+  <meta name="google-signin-client_id" content="229289277006-u8vvk0ovkorn0l81416ud088m42db0si.apps.googleusercontent.com">
+
+  <style>
+    html, body { margin: 0; height: 100%; background: #F7F7FA; }
+    #cargando-inicial {
+      position: fixed; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #6A1B9A;
+    }
+  </style>
+
+  <!-- ======================================================================
+       CLAVE DE GOOGLE MAPS PARA LA WEB (único lugar de la clave en la web)
+       Está en la variable claveGoogleMaps de abajo. Si contiene "PEGA_AQUI",
+       el script de Google NO se carga y la app usa OpenStreetMap.
+       Si el script no carga o Google rechaza la clave (gm_authFailure), la
+       app también cambia sola a OpenStreetMap.
+       ====================================================================== -->
+  <script>
+    (function () {
+      var claveGoogleMaps = "AIzaSyCzelNMtfQuu6oEbKFgVB053aDgiWho_rM";
+      function avisar() {
+        if (typeof window.alCambiarGoogleMaps === "function") window.alCambiarGoogleMaps();
+      }
+      window.googleMapsListo = false;
+      window.googleMapsFallo = false;
+      if (!claveGoogleMaps || claveGoogleMaps.indexOf("PEGA_AQUI") !== -1) {
+        window.googleMapsFallo = true;
+        return;
+      }
+      window.alCargarGoogleMaps = function () { window.googleMapsListo = true; avisar(); };
+      window.gm_authFailure = function () { window.googleMapsFallo = true; avisar(); };
+      var s = document.createElement("script");
+      s.src = "https://maps.googleapis.com/maps/api/js?key=" +
+        encodeURIComponent(claveGoogleMaps) +
+        "&libraries=marker&loading=async&callback=alCargarGoogleMaps";
+      s.async = true;
+      s.onerror = function () { window.googleMapsFallo = true; avisar(); };
+      document.head.appendChild(s);
+      // Agrupación de pines en Google Maps web (versión que pide google_maps_flutter_web).
+      var c = document.createElement("script");
+      c.src = "https://cdn.jsdelivr.net/npm/@googlemaps/markerclusterer@2.5.3/dist/index.umd.min.js";
+      c.async = true;
+      document.head.appendChild(c);
+    })();
+  </script>
+</head>
+<body>
+  <div id="cargando-inicial">
+    <div style="font-size: 22px; font-weight: 600;">Iglesias Católicas Lima</div>
+    <div style="margin-top: 8px; font-size: 14px;">Cargando…</div>
+  </div>
+  <script>
+    // Quita el texto "Cargando…" cuando Flutter dibuja el primer cuadro.
+    window.addEventListener("flutter-first-frame", function () {
+      var el = document.getElementById("cargando-inicial");
+      if (el) el.remove();
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

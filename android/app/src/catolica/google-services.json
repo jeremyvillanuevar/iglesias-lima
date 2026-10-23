@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "229289277006",
+    "project_id": "iglesias-lima",
+    "storage_bucket": "iglesias-lima.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229289277006:android:c263b9e76af88e5227751f",
+        "android_client_info": {
+          "package_name": "pe.iglesiaslima.catolica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229289277006-5tfqqn1a60ied1j7g2cqmvgmmbmfkt9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.iglesiaslima.catolica",
+            "certificate_hash": "675dee09074d0782772595fc3777129d5b6012a0"
+          }
+        },
+        {
+          "client_id": "229289277006-u8vvk0ovkorn0l81416ud088m42db0si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxMBkpsYRk1tbhsbBcX5aNe6Ih8OlnrBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229289277006-u8vvk0ovkorn0l81416ud088m42db0si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
