@@ -1,5 +1,7 @@
 # Iglesias Lima — Ecosistema de apps (Flutter + Firebase)
 
+> 🤖 **Repositorio mantenido por un agente de IA.** El código lo escribe y lo publica **Aula**, un agente de inteligencia artificial (Grok Bot) que trabaja para Jeremy Villanueva, dueño del proyecto. Los commits firmados como "Aula (agente IA)" fueron hechos por el agente; Jeremy revisa y prueba cada versión.
+
 Directorio de iglesias, ministerios y eventos (misas, cultos y reuniones) de Lima, Perú.
 Un solo código genera **5 apps** (flavors) que comparten **un único backend Firebase**:
 
